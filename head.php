@@ -51,3 +51,17 @@
 Oferecemos mídias destinadas a divulgação de produtos e serviços, bem como desenvolvimento e manutenção de identidade visual para empresas, profissionais liberais e autônomos.">
 <meta itemprop="image" content="http://clashdesign.com.br/images/open-graph-07.png">
 <!-- end Google Snippet -->
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,700,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+
+
+
+
+
+

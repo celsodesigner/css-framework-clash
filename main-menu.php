@@ -3,7 +3,7 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <link rel="stylesheet" href="css/ie.css">
 <![endif]-->
-<script src="js/responsive-nav.js"></script>
+<script type="text/javascript" src="js/responsive-nav.js"></script>
 
 <header>
     <section id="contact-bar-header">
@@ -17,9 +17,11 @@
     </section>
 
 	<div class="grid grid-pad" style="margin-top:-15px;">
+    
     	<div class="col-2-12">
             <a href="index.php" class="logo" id="top" data-scroll><img src="images/logo-header.png" width="150" alt="Logo" /></a>
-		</div>            
+		</div>     
+               
     	<div class="col-9-12">
             <nav class="nav-collapse">
                 <ul>
@@ -31,6 +33,7 @@
                 </ul>
             </nav>
         </div>
+        
 	</div>    
 </header>
 

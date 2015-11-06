@@ -6,18 +6,18 @@
 	vertical-align:baseline;
 	text-decoration:none;
 	outline:none;
-	font-weight:normal;
 } 
 
 /* color institutional   : #BA0024 */
 /* color button hover    : #810019 */
-/* color white bg heading: #505050 */
+/* color white bg heading: #555555 */
 /* color black bg text   : #AAAAAA */
 /* color black bg line   : #7D7D7D */
 /* color white bg line   : #D2D2D2 */
 
 body {
-	font-family: 'latoregular';
+	font-family:'Lato', sans-serif;
+	font-weight:normal;
 	font-size:16px;
 	color:#909090;
 	background-color:fff;
@@ -138,7 +138,6 @@ p, h1, h2, h3, h4, h5 {
 
 legend {
 	font-size:1.2em;
-	color:#5D5D5D;
 	margin-top:10px;
 }
 
@@ -175,16 +174,17 @@ h5 {
     font-size:1.2em;
 }
 
-h1, h2, h3, h4 {
+h3 {
 	color:#BA0024;
 }
 
-h1, h2, h3, h4 {
-	color:#BA0024;
+h1, h2, h4, h5, h6 {
+	color:#555555;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family:'latolight';
+h1, h2, h3, h4, h5, h6 {
+	font-weight:300;
+	font-style:normal;
 }
 
 /* LINE STYLES ----------------------------------------------------------------------------------------------------*/
@@ -373,7 +373,7 @@ hr {
 }
 
 .breadcrumb a {
-	color:#5D5D5D;
+	color:#909090;
 	font-size:0.7em;	
 	text-transform:uppercase;
 }
@@ -421,7 +421,6 @@ hr {
 }
 
 .call-to-action p {
-	color:#5D5D5D;	
 	text-align:left;
 }
 
@@ -434,17 +433,16 @@ hr {
 
 .call-to-action-boxed {
 	background:#F0F0F0;
-	padding-top:20px;
-	padding-bottom:60px;
+	padding:20px 20px 60px 40px;
 	border-left:5px solid #BA0024;
 }
 
 .call-to-action-boxed h3 {
+	margin-top:20px;
 	text-align:left;
 }
 
 .call-to-action-boxed p {
-	color:#5D5D5D;	
 	text-align:left;
 }
 
@@ -500,12 +498,12 @@ hr {
 
 .widget-list li a {
 	font-size:0.95em;
-	color:#A4A4A4;
+	color:#909090;
 	text-decoration:none;	
 }
 
 .widget-list li a:hover {
-	color:#5D5D5D;
+	color:#BA0024;
 }
 
 /* WIDGET LIST BG COLOR ----------------------------------------------------------------------------------------------*/
@@ -558,10 +556,6 @@ hr {
 	margin-top:20px;
 }
 
-.contact-info h3 {
-	color:#5D5D5D;
-}
-
 .contact-info li {
 	list-style-position:inside;
 	margin:20px 0;
@@ -569,12 +563,8 @@ hr {
 
 .contact-info li a {
 	font-size:0.95em;
-	color:#A4A4A4;
+	color:#909090;
 	text-decoration:none;	
-}
-
-.contact-info li a:hover {
-	color:#5D5D5D;
 }
 
 .contact-info span {
@@ -630,6 +620,7 @@ hr {
 
 #contact-bar-header {
 	background:#303030;
+	color:#AAAAAA;
 	padding-bottom:5px;
 }
 
@@ -669,6 +660,7 @@ hr {
 /* CONTACT BAR ----------------------------------------------------------------------------------------------*/
 
 #contact-bar {
+	color:#AAAAAA;
 	background:#303030;
 	padding-bottom:10px;
 }
@@ -762,7 +754,6 @@ footer {
 }
 
 .copyright {
-	color:#A4A4A4;
 	font-size:0.93em;
 }
 
@@ -798,6 +789,15 @@ footer {
 	#contact-bar ul li {
 		float:left;
 	}
+	
+	#contact-bar-header {
+		display:none;	
+	}
+	
+	
+	
+	
+	
 	
 	
 }
