@@ -6,15 +6,20 @@
 	vertical-align:baseline;
 	text-decoration:none;
 	outline:none;
+	font-weight:normal;
 } 
 
-/* cor institucional: #BA0024 */
-/* cor button hover : #810019 */
+/* color institutional   : #BA0024 */
+/* color button hover    : #810019 */
+/* color white bg heading: #505050 */
+/* color black bg text   : #AAAAAA */
+/* color black bg line   : #7D7D7D */
+/* color white bg line   : #D2D2D2 */
 
 body {
 	font-family: 'latoregular';
 	font-size:16px;
-	color:#A4A4A4;
+	color:#909090;
 	background-color:fff;
 	text-align:center;
 	/*background:url(../images/bg-title-page.jpg);
@@ -49,6 +54,49 @@ select {-webkit-appearance:textfield;}
 
 .clear {
 	clear:both;	
+}
+
+.wrapper { 
+	width:100%; 
+	float:left; 
+	clear:both;
+}
+
+.wrapper-content {
+	position:relative;
+	width:1140px;
+	left:50%;
+	margin-left:-570px;
+	float:left;
+	clear:both;
+
+}
+
+.vertical-gradient {
+	background:#F5F5F5;
+	background:-moz-linear-gradient(top,  #F5F5F5 0%, #FFF 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#FFF));
+	background:-webkit-linear-gradient(top,  #F5F5F5 0%,#FFF 100%);
+	background:-o-linear-gradient(top,  #F5F5F5 0%,#FFF 100%);
+	background:-ms-linear-gradient(top,  #F5F5F5 0%,#FFF 100%);
+	background:linear-gradient(to bottom,  #F5F5F5 0%,#FFF 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5F5F5', endColorstr='#FFF',GradientType=0 );
+}
+
+.spacer20 {
+	height:20px;	
+}
+
+.spacer40 {
+	height:40px;	
+}
+
+.spacer50 {
+	height:50px;	
+}
+
+.spacer60 {
+	height:60px;	
 }
 
 /* 3DRollovers -------------------------------------------------------------------------------------------------------*/
@@ -109,17 +157,14 @@ legend span {
 
 h1 {
     font-size:2.8em;
-	color:#5D5D5D;
 }
 
 h2 {
     font-size:2.4em;
-	color:#5D5D5D;
 }
 
 h3 {
     font-size:2em;
-	color:#BA0024;
 }
 
 h4 {
@@ -128,6 +173,14 @@ h4 {
 
 h5 {
     font-size:1.2em;
+}
+
+h1, h2, h3, h4 {
+	color:#BA0024;
+}
+
+h1, h2, h3, h4 {
+	color:#BA0024;
 }
 
 h1, h2, h3, h4, h5 {
