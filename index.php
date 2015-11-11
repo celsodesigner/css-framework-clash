@@ -140,7 +140,41 @@
             <div class="btn-border btn-round btn-large"><a href="" title="Large Border Round Button">Button</a></div>
         </div>
 	</div>  
-</section>     
+</section>    
+
+<!-- TOGGLE -->
+<div id="toggle-effect">
+	<div class="grid grid-pad">
+        <div class="toggle-effect col-1-1">
+            <h1>Toggle Effect</h1>
+            <hr class="line-style-gradient">
+            
+     		<div class="content-toggle">       
+                <div class="faq-question toggle-button" alt="toggle1">1. Donec ut dolor enim. Ut accumsan nisi mi, risus aliquam. Mauris hendrerit ex in commodo tincidunt.</div>
+                <div id="toggle1" class="toggle-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper urna nulla, non rhoncus urna elementum eu. Quisque sodales in purus nec blandit. Ut et dolor scelerisque risus sodales volutpat. Nam at blandit est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla fringilla rutrum arcu, nec tincidunt massa imperdiet eget. Nam justo justo, pharetra vitae tortor eget, fringilla malesuada ex. In hac habitasse platea dictumst. Etiam ac eros augue. Nam id orci ligula. Vestibulum in posuere nulla, non aliquam metus. Sed dignissim, arcu quis gravida gravida, tortor sem tristique lectus, at dictum leo est suscipit nisl. Donec leo purus, rhoncus ut mattis non, elementum nec dolor.</p>
+                </div>
+            </div>
+            
+     		<div class="content-toggle">       
+                <div class="faq-question toggle-button" alt="toggle2">2. ulla fringilla rutrum arcu, nec tincidunt massa imperdiet eget. Nam justo justo, pharetra vitae tortor eget.</div>
+                <div id="toggle2" class="toggle-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper urna nulla, non rhoncus urna elementum eu. Quisque sodales in purus nec blandit. Ut et dolor scelerisque risus sodales volutpat. Nam at blandit est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla fringilla rutrum arcu, nec tincidunt massa imperdiet eget. Nam justo justo, pharetra vitae tortor eget, fringilla malesuada ex. In hac habitasse platea dictumst. Etiam ac eros augue. Nam id orci ligula. Vestibulum in posuere nulla, non aliquam metus. Sed dignissim, arcu quis gravida gravida, tortor sem tristique lectus, at dictum leo est suscipit nisl. Donec leo purus, rhoncus ut mattis non, elementum nec dolor.</p>
+                </div>
+            </div>
+            
+     		<div class="content-toggle">       
+                <div class="faq-question toggle-button" alt="toggle3">3. Quisque sodales in purus nec blandit. Ut et dolor scelerisque risus sodales volutpat.</div>
+                <div id="toggle3" class="toggle-content">
+                    <p>Nulla fringilla rutrum arcu, nec tincidunt massa imperdiet eget. Nam justo justo, pharetra vitae tortor eget, fringilla malesuada ex. In hac habitasse platea dictumst. Etiam ac eros augue. Nam id orci ligula. Vestibulum in posuere nulla, non aliquam metus. Sed dignissim, arcu quis gravida gravida, tortor sem tristique lectus, at dictum leo est suscipit nisl. Donec leo purus, rhoncus ut mattis non, elementum nec dolor.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+ 
 
 <!-- CALL TO ACTION -->
 <section id="call-to-action">

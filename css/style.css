@@ -11,6 +11,7 @@
 /* color institutional   : #BA0024 */
 /* color button hover    : #810019 */
 /* color white bg heading: #555555 */
+/* color white bg text   : #909090 */
 /* color black bg text   : #AAAAAA */
 /* color black bg line   : #7D7D7D */
 /* color white bg line   : #D2D2D2 */
@@ -424,12 +425,47 @@ hr {
 	text-transform:uppercase;
 }
 
+/* TOGGLE EFFECT ------------------------------------------------------------------------------------------------*/
+
+.toggle-effect {
+	text-align:left;	
+}
+
+.content-toggle {
+	margin-bottom:5px;
+}
+
+.faq-question {
+	background:#EFEFEF;	
+	padding:16px 20px;	
+	border-left:5px solid #BA0024;
+	cursor:default;
+}
+
+.faq-question:before {
+	content:url(../images/arrow-down.png);
+	background:#BA0024;
+	border-radius:30px;
+	padding:2px 7px;
+	margin-right:15px;
+}
+
+.faq-question:active:before {
+	content:url(../images/arrow-up.png);
+}
+
+.content-toggle p {
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
 /* CALL TO ACTION ------------------------------------------------------------------------------------------------*/
 
 #call-to-action {
 	background:#EFEFEF;	
 	padding-top:40px;
 	padding-bottom:100px;
+	margin-top:80px;
 }
 
 .call-to-action h3 {

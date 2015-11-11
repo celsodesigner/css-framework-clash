@@ -24,6 +24,9 @@
  });
 </script>
 
+<!-- TOGGLE EFFECT -->
+<script type="text/javascript" src="js/toggle.js"></script>
+
 <?php include('back-to-top.php');?>
 
 <?php include('favicon.php');?>
