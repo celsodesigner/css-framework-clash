@@ -168,6 +168,27 @@
     </div>
 </section>
 
+<!-- NEWSLETTER -->
+<section id="newsletter">
+	<div class="call-to-action grid grid-pad">
+    
+        <div class="col-7-12">
+        	<h3>Newsletter</h3>
+            <p>Sed tempus orci tempor ligula convallis, vitae semper sem vulputate. Nunc vitae ullamcorper augue. Morbi non metus scelerisque felis pretium aliquam sit amet a turpis.</p>
+        </div>
+        
+        <div class="col-5-12">
+            <form id="subscribe-newsletter" action="" method="get">
+                <fieldset>
+                    <input type="search" placeholder="digite seu e-mail" class="subscribe-newsletter">
+                    <input type="submit" name="subscribe" value= "Inscrever-se" class="button" />
+                </fieldset>
+            </form>
+        </div>
+        
+    </div>
+</section>
+
 <!-- VIDEO CONTAINER -->
 <section id="video-container">
 	<div class="grid grid-pad">

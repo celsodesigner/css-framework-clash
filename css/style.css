@@ -462,7 +462,58 @@ hr {
 	text-align:left;
 }
 
-/* VIDEO CONTAINER --------------------------------------------------------------------------------------------------*/
+/* NEWSLETTER ---------------------------------------------------------------------------------------------*/
+
+#newsletter {
+	background:#EFEFEF;	
+	padding-top:40px;
+	padding-bottom:100px;
+}
+
+.newsletter h3 {
+	text-align:left;
+}
+
+.newsletter p {
+	text-align:left;
+}
+
+/* FORM SUBSCRIBE NEWSLETTER ---------------------------------------------------------------------------------*/
+
+#subscribe-newsletter fieldset {
+	border:none;	
+	margin-top:50px;
+	text-align:right;
+}
+
+#subscribe-newsletter fieldset .subscribe-newsletter {
+	border:1px solid #B7B7B7;
+	background-color:transparent;	
+	font-size:0.9em;
+	color:#7A7A7A;
+	padding:7px 20px;
+}
+
+#subscribe-newsletter fieldset .button {
+	font-weight:300;
+	border:none;
+	background-color:#BA0024;	
+	color:#fff;
+	font-size:0.8em;
+	text-transform:uppercase;
+	padding:8px 15px;
+	cursor:pointer;
+	position:relative;
+	left:-5px;
+	top:-1px;
+	transition:all 500ms ease 0s;	
+}
+
+#subscribe-newsletter fieldset .button:hover {
+	background-color:#810019;	
+}
+
+/* VIDEO CONTAINER -----------------------------------------------------------------------------------------*/
 
 .video-container {
 	position:relative; /* keeps the aspect ratio */
@@ -478,6 +529,7 @@ hr {
 
 #video-container {
 	background:#EFEFEF;	
+	margin-top:80px;
 	padding-top:40px;
 	padding-bottom:80px;
 }
