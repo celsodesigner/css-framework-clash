@@ -526,7 +526,7 @@ hr {
 
 .widget-list-bg-color {
 	text-align:left;
-	margin-top:20px;
+	margin-top:30px;
 }
 
 .widget-list-bg-color ul {
@@ -551,6 +551,28 @@ hr {
 	color:#fff;
 	text-decoration:none;	
 	padding:10px 100px 10px 0;
+}
+
+/* WIDGET LIST SIMPLE ---------------------------------------------------------------------------------------*/
+
+.widget-list-simple {
+	text-align:left;
+	margin-top:30px;
+}
+
+.widget-list-simple li {
+	margin:8px 0;
+}
+
+.widget-list-simple li a {
+	font-size:0.95em;
+	color:#909090;
+	text-decoration:none;	
+	text-transform:uppercase;
+}
+
+.widget-list-simple li a:hover {
+	color:#BA0024;
 }
 
 /* CONTATO ----------------------------------------------------------------------------------------------*/
@@ -728,9 +750,9 @@ footer {
 	margin-bottom:-4px;	
 }
 
-/* COPYRIGHT -------------------------------------------------------------------------------------------------------*/
+/* COPYRIGHT 1 ------------------------------------------------------------------------------------------------------*/
 
-#copyright {
+#copyright1 {
 	background-color:#303030;
 	padding-top:5px;
 	padding-bottom:25px;
@@ -738,6 +760,36 @@ footer {
 
 .copyright {
 	font-size:0.93em;
+}
+
+/* COPYRIGHT 2 ------------------------------------------------------------------------------------------------------*/
+
+#copyright2 {
+	background-color:#282828;
+	padding-top:5px;
+	padding-bottom:20px;
+}
+
+#copyright2 .copyright {
+	text-align:left;
+}
+
+.developer {
+	text-align:right;
+	font-size:0.8em;
+}
+
+.developer a {
+	color:#0C4C43;
+}
+
+.developer a:hover {
+	color:#6CC5B2;
+}
+
+.developer span {
+	position:relative;
+	top:-4px;	
 }
 
 /* MEDIA QUERIES -------------------------------------------------------------------------------------------*/

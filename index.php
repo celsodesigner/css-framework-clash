@@ -244,11 +244,20 @@
                     <div class="dotted-line"></div>
                     <li><a href="" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
                 </ul>
-                <div class="dashed-line"></div>
             </nav>
             
             <nav class="widget-list-bg-color">
-                <h3>Widget List</h3>
+                <h3>Widget List BG</h3>
+                <ul>
+                    <li><a href="" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
+                    <li><a href="" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
+                    <li><a href="" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
+                    <li><a href="" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="widget-list-simple">
+                <h3>Widget List Simple</h3>
                 <ul>
                     <li><a href="" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
                     <li><a href="" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
@@ -345,12 +354,27 @@
     </div>
 </footer>
 
-<!-- COPYRIGHT -->
-<section id="copyright">
+<!-- COPYRIGHT 1 -->
+<section id="copyright1">
     <div class="copyright grid grid-pad">
         <div class="col-1-1">
             <div class="copyright">&copy; <?php echo date("Y"); ?> Nome da Empresa  |  Todos os direitos reservados</div>
         </div>
+    </div>
+</section>
+
+<!-- COPYRIGHT 2 -->
+<section id="copyright2">
+    <div class="copyright grid grid-pad">
+    
+        <div class="col-1-2">
+            <div class="copyright">&copy; <?php echo date("Y"); ?> Nome da Empresa  |  Todos os direitos reservados</div>
+        </div>
+        
+        <div class="developer col-1-2">
+            <span>By&nbsp;&nbsp;&nbsp;</span><a href="http://www.clashdesign.com.br" target="_blank"><img src="images/logo-developer.png" alt="Clash Design"/></a>
+        </div>
+        
     </div>
 </section>
 
