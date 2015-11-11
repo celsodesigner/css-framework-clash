@@ -22,10 +22,6 @@ body {
 	color:#909090;
 	background-color:fff;
 	text-align:center;
-	/*background:url(../images/bg-title-page.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:right 128px;*/
 }
 
 img,
@@ -366,7 +362,27 @@ hr {
 	padding:12px 35px;
 }
 
-/* BREADCRUMB  ----------------------------------------------------------------------------------------------------*/
+/* CONTACT BAR HEADER ----------------------------------------------------------------------------------------*/
+
+#contact-bar-header {
+	background:#303030;
+	color:#AAAAAA;
+	padding-bottom:5px;
+}
+
+#contact-bar-header ul {
+	margin-top:-15px;	
+}
+
+#contact-bar-header ul li {
+	font-size:0.85em;
+}
+
+/* LOGO HEADER -------------------------------------------------------------------------------------------------*/
+
+
+
+/* BREADCRUMB  -------------------------------------------------------------------------------------------------*/
 
 .breadcrumb {
 	padding:6px 0 8px 0;
@@ -394,7 +410,7 @@ hr {
 #title-page {
 	background:url(../images/bg-title-page.jpg);
 	background-attachment:fixed;
-	background-position:right 117px;
+	background-position:right 115px;
 }
 
 .title-page {
@@ -616,47 +632,6 @@ hr {
 	-ms-filter: saturate(500%);	
 }
 
-/* CONTACT BAR HEADER ----------------------------------------------------------------------------------------*/
-
-#contact-bar-header {
-	background:#303030;
-	color:#AAAAAA;
-	padding-bottom:5px;
-}
-
-#contact-bar-header ul {
-	margin-top:-13px;	
-}
-
-#contact-bar-header ul li {
-	font-size:0.8em;
-	display:inline-block;	
-	list-style-position:inside;
-	margin:0 50px 0 0;
-}
-
-#contact-bar-header span {
-	position:relative;
-	top:-2px;
-	left:5px;
-}
-
-#contact-bar-header .adress:before {
-	content:url(../images/icon-adress.png);
-}
-
-#contact-bar-header .phone:before {
-	content:url(../images/icon-phone.png);
-}
-
-#contact-bar-header .email:before {
-	content:url(../images/icon-email.png);
-}
-
-#contact-bar-header .mobile:before {
-	content:url(../images/icon-mobile.png);
-}
-
 /* CONTACT BAR ----------------------------------------------------------------------------------------------*/
 
 #contact-bar {
@@ -665,36 +640,44 @@ hr {
 	padding-bottom:10px;
 }
 
-#contact-bar ul {
+.contact-bar ul {
 	margin-top:-5px;	
 }
 
-#contact-bar ul li {
+.contact-bar ul li {
 	font-size:0.9em;
 	display:inline-block;	
 	list-style-position:inside;
 	margin:0 50px 0 0;
 }
 
-#contact-bar span {
+.contact-bar span {
 	position:relative;
 	top:-2px;
 	left:5px;
 }
 
-#contact-bar .adress:before {
+.contact-bar .adress:before {
 	content:url(../images/icon-adress.png);
 }
 
-#contact-bar .phone:before {
+.contact-bar .adress {
+	float:left;
+}
+
+.contact-bar .phone:before {
 	content:url(../images/icon-phone.png);
 }
 
-#contact-bar .email:before {
+.contact-bar .email:before {
 	content:url(../images/icon-email.png);
 }
 
-#contact-bar-header .mobile:before {
+.contact-bar .email {
+	float:right;
+}
+
+.contact-bar .mobile:before {
 	content:url(../images/icon-mobile.png);
 }
 
@@ -786,7 +769,7 @@ footer {
 /* Mobile em portrait a mobile em landscape */
 @media only screen and (max-width: 479px) { 
 	
-	#contact-bar ul li {
+	.contact-bar ul li {
 		float:left;
 	}
 	

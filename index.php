@@ -19,7 +19,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<?php include('main-menu.php');?>
+<?php include('header.php');?>
 
 <!-- TITLE PAGE -->
 <div id="title-page">
@@ -34,10 +34,10 @@
 <section id="breadcrumb">
 	<div class="breadcrumb grid grid-pad">
         <div itemprop="breadcrumb" class="col-1-1">
-            <a href="index.php">Parágrafos</a> »
-            <a href="index.php">Call To Action</a> »
-            <a href="index.php">Shadowbox - Sidebar</a> »
-            <a href="index.php">Contato</a>  »
+            <a href="">Parágrafos</a> »
+            <a href="">Call To Action</a> »
+            <a href="">Shadowbox - Sidebar</a> »
+            <a href="">Contato</a>  »
         	<span>Página Atual</span>
         </div>
     </div>
@@ -116,28 +116,28 @@
         <hr class="line-style-gradient">
         <div class="col-1-3">
             <p>Default Button</p>
-            <div class="btn-std"><a href="#" title="Defaul Button">Button</a></div>
+            <div class="btn-std"><a href="" title="Defaul Button">Button</a></div>
         </div>
         <div class="col-1-3">
             <p>Border Button</p>
-            <div class="btn-border"><a href="#" title="Border Button">Button</a></div>
+            <div class="btn-border"><a href="" title="Border Button">Button</a></div>
         </div>
         <div class="col-1-3">
             <p>Round Button</p>
-            <div class="btn-std btn-round"><a href="#" title="Round Button">Button</a></div>
+            <div class="btn-std btn-round"><a href="" title="Round Button">Button</a></div>
         </div>
         
         <div class="col-1-3">
             <p>Border Round Button</p>
-            <div class="btn-border btn-round"><a href="#" title="Border Round Button">Button</a></div>
+            <div class="btn-border btn-round"><a href="" title="Border Round Button">Button</a></div>
         </div>
         <div class="col-1-3">
             <p>Large Round Button</p>
-            <div class="btn-std btn-round btn-large"><a href="#" title="Large Round Button">Button</a></div>
+            <div class="btn-std btn-round btn-large"><a href="" title="Large Round Button">Button</a></div>
         </div>
         <div class="col-1-3">
             <p>Large Border Round Button</p>
-            <div class="btn-border btn-round btn-large"><a href="#" title="Large Border Round Button">Button</a></div>
+            <div class="btn-border btn-round btn-large"><a href="" title="Large Border Round Button">Button</a></div>
         </div>
 	</div>  
 </section>     
@@ -150,7 +150,7 @@
             <p>Sed tempus orci tempor ligula convallis, vitae semper sem vulputate. Nunc vitae ullamcorper augue. Morbi non metus scelerisque felis pretium aliquam sit amet a turpis. Integer sagittis pretium efficitur.</p>
         </div>
         <div class="col-3-12">
-        	<div class="btn-border btn-round btn-large" style="margin-top:55px;"><a href="#" title="Portfólio">Portfólio</a></div>
+        	<div class="btn-border btn-round btn-large" style="margin-top:55px;"><a href="" title="Portfólio">Portfólio</a></div>
         </div>
     </div>
 </section>
@@ -163,7 +163,7 @@
             <p>Sed tempus orci tempor ligula convallis, vitae semper sem vulputate. Nunc vitae ullamcorper augue. Morbi non metus scelerisque felis pretium aliquam sit amet a turpis. Integer sagittis pretium efficitur.</p>
         </div>
         <div class="col-3-12">
-        	<div class="btn-std btn-round btn-large" style="margin-top:60px;"><a href="#" title="Portfólio">Portfólio</a></div>
+        	<div class="btn-std btn-round btn-large" style="margin-top:60px;"><a href="" title="Portfólio">Portfólio</a></div>
         </div>
     </div>
 </section>
@@ -236,13 +236,13 @@
             <nav class="widget-list">
                 <h3>Widget List</h3>
                 <ul>
-                    <li><a href="#" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
+                    <li><a href="" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
                     <div class="dotted-line"></div>
-                    <li><a href="#" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
+                    <li><a href="" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
                     <div class="dotted-line"></div>
-                    <li><a href="#" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
+                    <li><a href="" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
                     <div class="dotted-line"></div>
-                    <li><a href="#" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
+                    <li><a href="" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
                 </ul>
                 <div class="dashed-line"></div>
             </nav>
@@ -250,10 +250,10 @@
             <nav class="widget-list-bg-color">
                 <h3>Widget List</h3>
                 <ul>
-                    <li><a href="#" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
-                    <li><a href="#" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
-                    <li><a href="#" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
-                    <li><a href="#" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
+                    <li><a href="" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
+                    <li><a href="" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
+                    <li><a href="" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
+                    <li><a href="" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
                 </ul>
             </nav>
             
