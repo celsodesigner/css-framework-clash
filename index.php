@@ -43,71 +43,62 @@
     </div>
 </section>
 
-<!-- HEADING -->
-<section id="heading">
-	<div class="heading grid grid-pad">
-        <div class="col-1-1">
-            <h1>Heading</h1>
-            <hr class="line-style-gradient">
-            <h1>h1heading</h1>
-            <h2>h2heading</h2>
-            <h3>h3heading</h3>
-            <h4>h4heading</h4>
-            <h5>h5heading</h5>
-        </div>
-    </div>
-</section>
-
 <!-- TITLE LINES -->
 <section id="line-styles">
 	<div class="grid grid-pad"> 
         <h1>Line Styles</h1>
         <hr class="line-style-gradient">
         
-        <h5>Wecanfly</h5>
+        <h6>Wecanfly</h6>
         <div class="line-style-wecanfly"><hr class="line1"><hr class="line2"></div>
     
-        <h5>Clash</h5>
+        <h6>Clash</h6>
         <div class="line-style-clash"><hr class="line1"><hr class="line2"></div>
     
-        <h5>Gradient</h5>
+        <h6>Gradient</h6>
         <hr class="line-style-gradient">
         
-        <h5>Diagonal</h5>
+        <h6>Diagonal</h6>
         <hr class="line-style-diagonal">
     
-        <h5>Zig Zag</h5>
+        <h6>Zig Zag</h6>
         <hr class="line-style-zigzag">
         
-        <h5>Diamond</h5>
+        <h6>Diamond</h6>
         <hr class="line-style-diamond">
         
-        <h5>Glyph</h5>
+        <h6>Glyph</h6>
         <hr class="line-style-glyph">
         
-        <h5>Horizontal</h5>
+        <h6>Horizontal</h6>
         <hr class="horizontal-line">
         
-        <h5>Dashed Line</h5>
+        <h6>Dashed Line</h6>
         <hr class="dashed-line">
         
-        <h5>Dotted Line</h5>
+        <h6>Dotted Line</h6>
         <hr class="dotted-line">
         
     </div>
 </section>
 
-<!-- PARAGRAFOS -->
-<section id="paragrafo">
-    <div class="paragrafo grid grid-pad">
+<!-- CONTENT -->
+<section id="content">
+    <div class="content grid grid-pad">
     	<div class="col-1-1">
-            <h1>Parágrafo</h1>
+            <h1>Formatação de Texto</h1>
             <hr class="line-style-gradient">
-            <p><strong>strong</strong> <b>bold</b> <i>italic</i> <em>emphasis</em></p>
+            <h2>Heading (h2)</h2>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula. Vestibulum scelerisque massa vel justo lobortis bibendum.</p>
+            <h3>Heading (h3)</h3>
             <p>Sed vitae placerat urna. Ut efficitur, urna luctus ultricies ultricies, felis justo accumsan nisi, et convallis orci diam dapibus justo. Maecenas tempor condimentum mi eu tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget imperdiet velit, ut convallis orci. Donec facilisis lectus leo, ut suscipit urna pretium in. Praesent euismod libero vitae odio pellentesque blandit. Cras a velit vitae metus eleifend commodo at ornare nisi. Morbi ac dignissim neque. Donec ante ex, posuere vitae feugiat in, porttitor at justo.</p>
+            <h4>Heading (h4)</h4>
             <p>Praesent aliquet aliquet turpis sed cursus. Suspendisse quis mi elit. Sed pharetra nisl vel nulla commodo aliquam. Pellentesque gravida at diam et sollicitudin. Cras pellentesque auctor nulla, vitae pulvinar dui sagittis at. Nullam vitae dui ut est pellentesque blandit. Duis euismod mi vel quam consequat, quis facilisis risus euismod. Sed vel bibendum est, a feugiat arcu.</p>
+            <h5>Heading (h5)</h5>
             <p>Ut in hendrerit neque. Aliquam in neque non risus eleifend malesuada. Sed vestibulum dolor vitae libero ornare, sed facilisis est hendrerit. Nam vitae odio et felis congue bibendum a ut nulla. Donec pharetra dignissim eros eu maximus.</p>
+            <h6>Heading (h6)</h6>
+            <p><strong>strong</strong> <b>bold</b> <i>italic</i> <em>emphasis</em></p>
         </div>
     </div>
 </section>

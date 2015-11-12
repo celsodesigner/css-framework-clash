@@ -98,7 +98,7 @@ select {-webkit-appearance:textfield;}
 	height:60px;	
 }
 
-/* 3DRollovers -------------------------------------------------------------------------------------------------------*/
+/* 3DRollovers ---------------------------------------------------------------------------------------------------*/
 
 .fade {
 	margin-top:30px;
@@ -109,55 +109,7 @@ select {-webkit-appearance:textfield;}
 	display:block;
 }
 
-/* VARIOUS ----------------------------------------------------------------------------------------------------*/
-
-#paragrafo {
-	background:#EEE;	
-	padding-top:40px;
-	padding-bottom:80px;
-}
-
-.paragrafo p {
-	text-align:left;
-}
-
-p {
-	font-size:1em;	
-	margin-bottom:1em;
-	line-height:1.4em;
-}
-
-a {
-	color:#BA0024;
-	transition:all 500ms ease 0s;	
-	text-decoration:none;
-}
-
-a:hover {
-	color:#A4A4A4;
-}
-
-p, h1, h2, h3, h4, h5 {
-	margin-top:10px;	
-}
-
-legend {
-	font-size:1.2em;
-	margin-top:10px;
-}
-
-legend span {
-	color:#BA0024;
-    font-variant:small-caps;
-}
-
-/* HEADING  ----------------------------------------------------------------------------------------------------*/
-
-#heading {
-	background:#EEE;	
-	padding-top:40px;
-	padding-bottom:80px;
-}
+/* FORMATACAO TEXTO ----------------------------------------------------------------------------------------------*/
 
 h1 {
     font-size:2.8em;
@@ -177,6 +129,13 @@ h4 {
 
 h5 {
     font-size:1.2em;
+	font-style:italic;
+	font-weight:400;
+}
+
+h6 {
+    font-size:1em;
+	font-weight:400;
 }
 
 h3 {
@@ -187,9 +146,52 @@ h1, h2, h4, h5, h6 {
 	color:#555555;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
 	font-weight:300;
 	font-style:normal;
+}
+
+p {
+	font-size:1em;	
+	margin-bottom:1em;
+	line-height:1.4em;
+}
+
+a {
+	color:#BA0024;
+	transition:all 500ms ease 0s;	
+	text-decoration:none;
+}
+
+a:hover {
+	color:#555555;
+}
+
+legend {
+	font-size:1.2em;
+	margin-top:10px;
+}
+
+legend span {
+	color:#BA0024;
+    font-variant:small-caps;
+}
+
+/* CONTENT --------------------------------------------------------------------------------------------------------*/
+
+#content {
+	background:#EEE;	
+	padding-top:40px;
+	padding-bottom:80px;
+}
+
+.content p,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+	text-align:left;	
 }
 
 /* LINE STYLES ----------------------------------------------------------------------------------------------------*/
