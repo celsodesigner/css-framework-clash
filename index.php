@@ -25,7 +25,7 @@
 <div id="title-page">
 	<div class="title-page grid grid-pad">
 		<div class="col-1-1">    
-            <h1>Página Inicial</h1>
+            <h1></h1>
         </div>
     </div>
 </div>
@@ -37,7 +37,7 @@
             <a href="">Parágrafos</a> »
             <a href="">Call To Action</a> »
             <a href="">Shadowbox - Sidebar</a> »
-            <a href="">Contato</a>  »
+            <a href="">Contato</a> »
         	<span>Página Atual</span>
         </div>
     </div>
@@ -142,40 +142,6 @@
 	</div>  
 </section>    
 
-<!-- TOGGLE -->
-<div id="toggle-effect">
-	<div class="grid grid-pad">
-        <div class="toggle-effect col-1-1">
-            <h1>Toggle Effect</h1>
-            <hr class="line-style-gradient">
-            
-     		<div class="content-toggle">       
-                <div class="faq-question toggle-button" alt="toggle1">1. Donec ut dolor enim. Ut accumsan nisi mi, risus aliquam. Mauris hendrerit ex in commodo tincidunt.</div>
-                <div id="toggle1" class="toggle-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper urna nulla, non rhoncus urna elementum eu. Quisque sodales in purus nec blandit. Ut et dolor scelerisque risus sodales volutpat. Nam at blandit est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla fringilla rutrum arcu, nec tincidunt massa imperdiet eget. Nam justo justo, pharetra vitae tortor eget, fringilla malesuada ex. In hac habitasse platea dictumst. Etiam ac eros augue. Nam id orci ligula. Vestibulum in posuere nulla, non aliquam metus. Sed dignissim, arcu quis gravida gravida, tortor sem tristique lectus, at dictum leo est suscipit nisl. Donec leo purus, rhoncus ut mattis non, elementum nec dolor.</p>
-                </div>
-            </div>
-            
-     		<div class="content-toggle">       
-                <div class="faq-question toggle-button" alt="toggle2">2. ulla fringilla rutrum arcu, nec tincidunt massa imperdiet eget. Nam justo justo, pharetra vitae tortor eget.</div>
-                <div id="toggle2" class="toggle-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper urna nulla, non rhoncus urna elementum eu. Quisque sodales in purus nec blandit. Ut et dolor scelerisque risus sodales volutpat. Nam at blandit est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla fringilla rutrum arcu, nec tincidunt massa imperdiet eget. Nam justo justo, pharetra vitae tortor eget, fringilla malesuada ex. In hac habitasse platea dictumst. Etiam ac eros augue. Nam id orci ligula. Vestibulum in posuere nulla, non aliquam metus. Sed dignissim, arcu quis gravida gravida, tortor sem tristique lectus, at dictum leo est suscipit nisl. Donec leo purus, rhoncus ut mattis non, elementum nec dolor.</p>
-                </div>
-            </div>
-            
-     		<div class="content-toggle">       
-                <div class="faq-question toggle-button" alt="toggle3">3. Quisque sodales in purus nec blandit. Ut et dolor scelerisque risus sodales volutpat.</div>
-                <div id="toggle3" class="toggle-content">
-                    <p>Nulla fringilla rutrum arcu, nec tincidunt massa imperdiet eget. Nam justo justo, pharetra vitae tortor eget, fringilla malesuada ex. In hac habitasse platea dictumst. Etiam ac eros augue. Nam id orci ligula. Vestibulum in posuere nulla, non aliquam metus. Sed dignissim, arcu quis gravida gravida, tortor sem tristique lectus, at dictum leo est suscipit nisl. Donec leo purus, rhoncus ut mattis non, elementum nec dolor.</p>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</div>
-
- 
-
 <!-- CALL TO ACTION -->
 <section id="call-to-action">
 	<div class="call-to-action grid grid-pad">
@@ -220,6 +186,38 @@
             </form>
         </div>
         
+    </div>
+</section>
+
+<!-- ACCORDION -->
+<section id="accordion-effect">
+	<div class="grid grid-pad">
+        <div class="accordion-effect col-1-1">
+            <h1>Accordion Effect</h1>
+            <hr class="line-style-gradient">
+         	<div class="spacer20"></div>
+            
+            <div class="accordion" id="nav-section1">1. Maecenas efficitur nisi sit amet eleifend finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span></span></div>
+            <ul>
+                <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis malesuada ipsum. Vivamus consectetur pulvinar neque, ut mattis massa consectetur sed. Donec lorem mauris, sagittis eget sodales at, viverra vitae diam. Sed vitae enim quis tortor gravida consequat. Mauris elementum semper nibh eget dapibus.</a></li>
+            </ul>
+            
+            <div class="accordion" id="nav-section2">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+            <ul>
+                <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+            </ul>
+            
+            <div class="accordion" id="nav-section3">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+            <ul>
+                <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+            </ul>
+            
+            <div class="accordion" id="nav-section4">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+            <ul>
+                <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+            </ul>
+            
+        </div>
     </div>
 </section>
 
@@ -275,7 +273,7 @@
     
             <div class="col-1-1">
                 <div class="fade">
-                    <a href="http://www.youtube.com/v/Web6izcx3UY&hl=pt_BR&fs=1&amp;rel=0&amp;autoplay=1" class="rollover" rel="shadowbox;width=800;height=450" title="#">
+                    <a href="http://www.youtube.com/v/Web6izcx3UY&hl=pt_BR&fs=1&amp;rel=0&amp;autoplay=1" class="rollover" rel="shadowbox;width=800;height=450" title="">
                         <figure class="cube">
                             <img src="images/thumbs-shadowbox-video.jpg" width="800" class="front" alt="Thumb" title="Título da imagem">
                             <img src="images/thumbs-shadowbox-video-hover.jpg" width="800" class="back" alt="Thumb Hover" title="Título da imagem">
@@ -432,6 +430,17 @@
         
     </div>
 </section>
+
+<!-- ACCORDION JQUERY PLUGIN -->
+<script type="text/javascript" src="js/jquery.accordion.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.accordion').accordion({
+        defaultOpen: 'section1',
+        cookieName: 'accordion_nav'
+    });
+  });
+</script>
 
 </body>
 </html>

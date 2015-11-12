@@ -26,6 +26,7 @@
 
 <!-- TOGGLE EFFECT -->
 <script type="text/javascript" src="js/toggle.js"></script>
+<script type="text/javascript" src="js/toggle2.js"></script>
 
 <?php include('back-to-top.php');?>
 

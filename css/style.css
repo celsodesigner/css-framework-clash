@@ -110,7 +110,7 @@ select {-webkit-appearance:textfield;}
 /* VARIOUS ----------------------------------------------------------------------------------------------------*/
 
 #paragrafo {
-	background:#EFEFEF;	
+	background:#EEE;	
 	padding-top:40px;
 	padding-bottom:80px;
 }
@@ -146,7 +146,7 @@ legend span {
 /* HEADING  ----------------------------------------------------------------------------------------------------*/
 
 #heading {
-	background:#EFEFEF;	
+	background:#EEE;	
 	padding-top:40px;
 	padding-bottom:80px;
 }
@@ -415,7 +415,7 @@ hr {
 }
 
 .title-page {
-	padding:200px 0;
+	padding:220px 0;
 	margin-top:80px;	
 }
 
@@ -425,44 +425,10 @@ hr {
 	text-transform:uppercase;
 }
 
-/* TOGGLE EFFECT ------------------------------------------------------------------------------------------------*/
-
-.toggle-effect {
-	text-align:left;	
-}
-
-.content-toggle {
-	margin-bottom:5px;
-}
-
-.faq-question {
-	background:#EFEFEF;	
-	padding:16px 20px;	
-	border-left:5px solid #BA0024;
-	cursor:default;
-}
-
-.faq-question:before {
-	content:url(../images/arrow-down.png);
-	background:#BA0024;
-	border-radius:30px;
-	padding:2px 7px;
-	margin-right:15px;
-}
-
-.faq-question:active:before {
-	content:url(../images/arrow-up.png);
-}
-
-.content-toggle p {
-	padding-left:15px;
-	padding-bottom:15px;
-}
-
 /* CALL TO ACTION ------------------------------------------------------------------------------------------------*/
 
 #call-to-action {
-	background:#EFEFEF;	
+	background:#EEE;	
 	padding-top:40px;
 	padding-bottom:100px;
 	margin-top:80px;
@@ -501,7 +467,7 @@ hr {
 /* NEWSLETTER ---------------------------------------------------------------------------------------------*/
 
 #newsletter {
-	background:#EFEFEF;	
+	background:#EEE;	
 	padding-top:40px;
 	padding-bottom:100px;
 }
@@ -549,7 +515,62 @@ hr {
 	background-color:#810019;	
 }
 
+/* ACCORDION EFFECT ------------------------------------------------------------------------------------------------*/
+
+#accordion-effect {
+	padding:20px 0 80px 0;
+}
+
+.accordion {
+    margin-top:3px;
+    padding:12px 20px;
+	color:#555;
+    background:#EEE;
+    text-decoration:none;
+    font-size:1em;
+	text-align:left;
+	border-left:5px solid #BA0024;
+}
+
+/*.accordion-open {
+    background:#000;
+    color:#fff;
+}*/
+
+.accordion-effect ul li {
+	padding:10px;
+	text-align:left;	
+}
+
+.accordion-effect ul li a {
+	color:#909090;
+	font-size:0.95em;
+}
+
+.accordion-open span {
+    display:block;
+    float:right;
+    padding:10px;
+}
+
+.accordion-open span {
+    background:url(../images/arrow-up.png) center center no-repeat;
+}
+
+.accordion-close span {
+    display:block;
+    float:right;
+    background:url(../images/arrow-down.png) center center no-repeat;
+    padding:10px;
+}
+
 /* VIDEO CONTAINER -----------------------------------------------------------------------------------------*/
+
+#video-container {
+	background:#EEE;	
+	padding-top:40px;
+	padding-bottom:80px;
+}
 
 .video-container {
 	position:relative; /* keeps the aspect ratio */
@@ -561,13 +582,6 @@ hr {
 .video-container iframe,
 .video-container object,
 .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-}
-
-#video-container {
-	background:#EFEFEF;	
-	margin-top:80px;
-	padding-top:40px;
-	padding-bottom:80px;
 }
 
 .video-container iframe {
@@ -666,8 +680,96 @@ hr {
 /* CONTATO ----------------------------------------------------------------------------------------------*/
 
 #contact-form {
-	background:#EFEFEF;	
+	background:#EEE;	
 	padding:40px 0;
+}
+
+.success-message, .error-message {
+	color:#303030;
+	background-color:#fffeb4;	
+	padding:20px;
+	border-radius:5px;
+	text-align:center;
+	margin:30px 0;
+}
+
+.attention-messages {
+	width:99%;	
+	display:none;
+}
+
+.attention-messages span {
+	position:relative;
+	top:-3px;	
+}
+
+.success-message li {
+	list-style-image:url(../images/icon-success.png);
+	list-style-position:inside;	
+}
+
+.error-message li {
+	list-style-image:url(../images/icon-attention.png);
+	list-style-position:inside;	
+}
+
+.contact-form form {
+	text-align:left;
+}
+
+.contact-form fieldset {
+	border:0;
+	padding:30px 0 60px 0;
+}
+
+.contact-form span {
+	display:block;
+	color:#ba1f28;	
+	font-size:0.84em;
+	margin:0 0 0 7px;
+}
+
+.contact-form label {
+	display:block;	
+	padding:6px 0;
+}
+
+.required-field {
+	font-size:0.85em;
+	padding:10px 0;
+}
+
+.contact-form input {
+	font-family:'Lato', sans-serif;
+	font-size:0.8em;
+	padding:10px 18px;
+	width:100%;
+	border:1px solid #E5E5E5;
+}
+
+.contact-form textarea {
+	font-family:'Lato', sans-serif;
+	font-size:0.8em;
+	padding:6px 15px;
+	border:1px solid #E5E5E5;
+	width:100%;
+}
+
+.contact-form .button {
+	font-size:1em;
+	display:inline;
+	color:#fff;
+	cursor:pointer;
+	margin:5px 10px 0 0;
+	padding:8px 0;
+	border-style:none;
+	background-color:#BA0024;
+	width:100px;
+	transition:all 500ms ease 0s;	
+}
+
+.contact-form .button:hover {
+	background-color:#810019;
 }
 
 /* CONTACT-FORM/CONTACT-INFO ----------------------------------------------------------------------------------------------*/
