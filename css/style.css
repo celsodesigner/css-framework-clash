@@ -8,13 +8,15 @@
 	outline:none;
 } 
 
-/* color institutional   : #BA0024 */
-/* color button hover    : #810019 */
-/* color white bg heading: #555555 */
-/* color white bg text   : #909090 */
-/* color black bg text   : #AAAAAA */
-/* color black bg line   : #7D7D7D */
-/* color white bg line   : #D2D2D2 */
+/* COLORS -------------------------------------------------------------------------------/*
+/* institutional   : #BA0024 */
+/* button hover    : #810019 */
+/* white bg heading: #555555 */
+/* black bg heading: #AAAAAA */
+/* white bg text   : #909090 */
+/* black bg text   : #AAAAAA */
+/* black bg line   : #7D7D7D */
+/* white bg line   : #D2D2D2 */
 
 body {
 	font-family:'Lato', sans-serif;
@@ -115,8 +117,14 @@ select {-webkit-appearance:textfield;}
 	padding-bottom:80px;
 }
 
+.paragrafo p {
+	text-align:left;
+}
+
 p {
 	font-size:1em;	
+	margin-bottom:1em;
+	line-height:1.4em;
 }
 
 a {
@@ -518,7 +526,7 @@ hr {
 /* ACCORDION EFFECT ------------------------------------------------------------------------------------------------*/
 
 #accordion-effect {
-	padding:20px 0 80px 0;
+	padding:40px 0 80px 0;
 }
 
 .accordion {
@@ -562,6 +570,131 @@ hr {
     float:right;
     background:url(../images/arrow-down.png) center center no-repeat;
     padding:10px;
+}
+
+/* TABS  ------------------------------------------------------------------------------------------------*/
+
+.tabs {
+    float:none;
+    padding:0;
+    margin:75px auto;
+}
+ 
+.tabs h3 {
+	color:#BA0024;	
+}
+
+.tabs:after {
+    content:'';
+    display:table;
+    clear:both;
+}
+ 
+.tabs input[type=radio] {
+    display:none;
+}
+ 
+.tabs label {
+	font-size:1.3em;
+    display:block;
+    float:left;
+    width:33.3333%;
+    color:#CCC;
+    text-decoration:none;
+    text-align:center;
+    padding:12px 0 6px 0;
+    cursor:pointer;
+    box-shadow:inset 0 4px #CCC;
+    border-bottom:4px solid #CCC;
+ 
+    -webkit-transition:all 0.5s; /* Safari 3.1 to 6.0 */
+    transition:all 0.5s;
+}
+  
+.tabs label span {
+    display:none;
+}
+ 
+.tabs label i {
+    padding:5px;
+    margin-right:0;
+}
+ 
+.tabs label:hover {
+    color:#BA0024;
+    box-shadow:inset 0 4px #BA0024;
+    border-bottom:4px solid #BA0024;
+}
+ 
+.tab-content {
+    display:none;
+    width:100%;
+    float:left;
+    padding:10px 15px;
+    box-sizing:border-box;
+    background-color:#FFF;
+	text-align:left;
+}
+
+/* THE ANIMATION */
+
+.tab-content * {
+ 
+    -webkit-animation:scale 0.7s ease-in-out;
+    -moz-animation:scale 0.7s ease-in-out;
+    animation:scale 0.7s ease-in-out;
+}
+ 
+@keyframes scale {
+ 
+  0% { 
+    transform:scale(0.9);
+    opacity:0;
+    }
+ 
+  50% {
+    transform:scale(1.01);
+    opacity:0.5;
+    }
+ 
+  100% { 
+    transform:scale(1);
+    opacity:1;
+  }
+ 
+}
+
+/* THE MECHANICS */
+
+.tabs [id^="tab"]:checked + label {
+    background:#FFF;
+    box-shadow:inset 0 4px #BA0024;
+    border-bottom:4px solid #BA0024;
+    color:#BA0024;
+}
+ 
+#tab1:checked ~ #tab-content1,
+#tab2:checked ~ #tab-content2,
+#tab3:checked ~ #tab-content3 {
+    display:block;
+}
+
+/* MAKING RESPONSIVE */
+
+@media (min-width:768px) {   
+    .tabs i {
+        padding:5px;
+        margin-right:10px;
+    }
+ 
+    .tabs label span {
+        display:inline-block;
+    }
+ 
+    .tabs {
+   max-width:750px;
+   margin:50px auto;
+    }
 }
 
 /* VIDEO CONTAINER -----------------------------------------------------------------------------------------*/
@@ -636,7 +769,7 @@ hr {
 }
 
 .widget-list-bg-color li {
-	list-style-image:url(../images/marker-02.png);
+	list-style-image:url(../images/marker-02-white.png);
 	list-style-position:inside;
 	background:#BA0024;
 	margin-top:1px;

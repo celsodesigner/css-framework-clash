@@ -105,6 +105,9 @@
             <hr class="line-style-gradient">
             <p><strong>strong</strong> <b>bold</b> <i>italic</i> <em>emphasis</em></p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula. Vestibulum scelerisque massa vel justo lobortis bibendum.</p>
+            <p>Sed vitae placerat urna. Ut efficitur, urna luctus ultricies ultricies, felis justo accumsan nisi, et convallis orci diam dapibus justo. Maecenas tempor condimentum mi eu tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget imperdiet velit, ut convallis orci. Donec facilisis lectus leo, ut suscipit urna pretium in. Praesent euismod libero vitae odio pellentesque blandit. Cras a velit vitae metus eleifend commodo at ornare nisi. Morbi ac dignissim neque. Donec ante ex, posuere vitae feugiat in, porttitor at justo.</p>
+            <p>Praesent aliquet aliquet turpis sed cursus. Suspendisse quis mi elit. Sed pharetra nisl vel nulla commodo aliquam. Pellentesque gravida at diam et sollicitudin. Cras pellentesque auctor nulla, vitae pulvinar dui sagittis at. Nullam vitae dui ut est pellentesque blandit. Duis euismod mi vel quam consequat, quis facilisis risus euismod. Sed vel bibendum est, a feugiat arcu.</p>
+            <p>Ut in hendrerit neque. Aliquam in neque non risus eleifend malesuada. Sed vestibulum dolor vitae libero ornare, sed facilisis est hendrerit. Nam vitae odio et felis congue bibendum a ut nulla. Donec pharetra dignissim eros eu maximus.</p>
         </div>
     </div>
 </section>
@@ -189,7 +192,7 @@
     </div>
 </section>
 
-<!-- ACCORDION -->
+<!-- ACCORDION EFFECT -->
 <section id="accordion-effect">
 	<div class="grid grid-pad">
         <div class="accordion-effect col-1-1">
@@ -220,6 +223,45 @@
         </div>
     </div>
 </section>
+
+<!-- TABS -->
+<div id="tabs">
+    <div class="grid grid-pad">
+        <h1>TABS</h1>
+        <hr class="line-style-gradient">
+        <div class="tabs col-1-1">
+             
+            <input type="radio" name="tabs" id="tab1" checked >
+            <label for="tab1">
+                <i class="fa fa-html5"></i><span>HTML5</span>
+            </label>
+         
+            <input type="radio" name="tabs" id="tab2">
+            <label for="tab2">
+                <i class="fa fa-css3"></i><span>CSS3</span>
+            </label>
+            
+            <input type="radio" name="tabs" id="tab3">
+            <label for="tab3">
+                <i class="fa fa-code"></i><span>jQuery</span>
+            </label>
+         
+            <div id="tab-content1" class="tab-content">
+                <h3>HTML5 Snippets</h3>
+                <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web.</p>
+            </div>
+            <div id="tab-content2" class="tab-content">
+                <h3>CSS3 Snippets</h3>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.</p>
+            </div>
+            <div id="tab-content3" class="tab-content">
+                <h3>jQuery</h3>
+                <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+            </div>
+                
+        </div>
+    </div>
+</div>
 
 <!-- VIDEO CONTAINER -->
 <section id="video-container">
@@ -275,8 +317,8 @@
                 <div class="fade">
                     <a href="http://www.youtube.com/v/Web6izcx3UY&hl=pt_BR&fs=1&amp;rel=0&amp;autoplay=1" class="rollover" rel="shadowbox;width=800;height=450" title="">
                         <figure class="cube">
-                            <img src="images/thumbs-shadowbox-video.jpg" width="800" class="front" alt="Thumb" title="Título da imagem">
-                            <img src="images/thumbs-shadowbox-video-hover.jpg" width="800" class="back" alt="Thumb Hover" title="Título da imagem">
+                            <img src="images/thumbs-shadowbox-video.jpg" width="822" class="front" alt="Thumb" title="Título da imagem">
+                            <img src="images/thumbs-shadowbox-video-hover.jpg" width="822" class="back" alt="Thumb Hover" title="Título da imagem">
                         </figure>
                     </a>
                 </div>
