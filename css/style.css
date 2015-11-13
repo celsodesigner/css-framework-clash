@@ -13,16 +13,15 @@
 /* button hover    : #810019 */
 /* white bg heading: #555555 */
 /* black bg heading: #AAAAAA */
-/* white bg text   : #909090 */
+/* white bg text   : #8D8D8D */
 /* black bg text   : #AAAAAA */
 /* black bg line   : #7D7D7D */
 /* white bg line   : #D2D2D2 */
 
 body {
 	font-family:'Lato', sans-serif;
-	font-weight:normal;
 	font-size:16px;
-	color:#909090;
+	color:#8D8D8D;
 	background-color:fff;
 	text-align:center;
 }
@@ -130,12 +129,10 @@ h4 {
 h5 {
     font-size:1.2em;
 	font-style:italic;
-	font-weight:400;
 }
 
 h6 {
     font-size:1em;
-	font-weight:400;
 }
 
 h3 {
@@ -146,9 +143,12 @@ h1, h2, h4, h5, h6 {
 	color:#555555;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
 	font-weight:300;
-	font-style:normal;
+}
+
+h4, h5, h6 {
+	font-weight:400;
 }
 
 p {
@@ -192,6 +192,15 @@ legend span {
 .content h5,
 .content h6 {
 	text-align:left;	
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+	margin:5px 0 3px 0;
 }
 
 /* LINE STYLES ----------------------------------------------------------------------------------------------------*/
@@ -400,7 +409,7 @@ hr {
 }
 
 .breadcrumb a {
-	color:#909090;
+	color:#8D8D8D;
 	font-size:0.7em;	
 	text-transform:uppercase;
 }
@@ -425,8 +434,8 @@ hr {
 }
 
 .title-page {
-	padding:220px 0;
-	margin-top:80px;	
+	padding:224px 0;
+	margin-top:81px;	
 }
 
 .title-page h1 {
@@ -441,7 +450,6 @@ hr {
 	background:#EEE;	
 	padding-top:40px;
 	padding-bottom:100px;
-	margin-top:80px;
 }
 
 .call-to-action h3 {
@@ -553,7 +561,7 @@ hr {
 }
 
 .accordion-effect ul li a {
-	color:#909090;
+	color:#8D8D8D;
 	font-size:0.95em;
 }
 
@@ -583,7 +591,14 @@ hr {
 }
  
 .tabs h3 {
+	font-size:1.3em;
+	font-weight:400;
 	color:#BA0024;	
+	margin-bottom:5px;
+}
+
+.tabs p {
+	font-size:0.95em;	
 }
 
 .tabs:after {
@@ -632,7 +647,7 @@ hr {
     display:none;
     width:100%;
     float:left;
-    padding:10px 15px;
+    padding:15px;
     box-sizing:border-box;
     background-color:#FFF;
 	text-align:left;
@@ -751,7 +766,7 @@ hr {
 
 .widget-list li a {
 	font-size:0.95em;
-	color:#909090;
+	color:#8D8D8D;
 	text-decoration:none;	
 }
 
@@ -803,7 +818,7 @@ hr {
 
 .widget-list-simple li a {
 	font-size:0.95em;
-	color:#909090;
+	color:#8D8D8D;
 	text-decoration:none;	
 	text-transform:uppercase;
 }
@@ -811,6 +826,52 @@ hr {
 .widget-list-simple li a:hover {
 	color:#BA0024;
 }
+
+/* WIDGET LIST BORDER -----------------------------------------------------------------------------------------*/
+
+.widget-list-border {
+	text-align:left;
+	margin-top:30px;
+}
+
+.widget-list-border ul {
+	margin-top:10px;	
+	border:1px solid #D2D2D2;
+	background-color:transparent;
+	border-radius:5px;
+}
+
+.widget-list-border ul:hover {
+	border-radius:5px;
+}
+
+.widget-list-border li {
+	padding:10px 0 10px 15px;
+	transition:all 500ms ease 0s;	
+	border-bottom:1px solid #D2D2D2;
+}
+
+.widget-list-border li:first-child {
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.widget-list-border li:last-child {
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.widget-list-border li:hover {
+	background:#EEE;
+}
+
+.widget-list-border li a {
+	font-size:0.95em;
+	color:#8D8D8D;
+	text-decoration:none;	
+	padding:10px 100px 10px 0;
+}
+
 
 /* CONTATO ----------------------------------------------------------------------------------------------*/
 
@@ -911,7 +972,6 @@ hr {
 
 #contact-form-contact-info {
 	padding-top:20px;
-	padding-bottom:60px;
 }
 
 .contact-info {
@@ -926,7 +986,7 @@ hr {
 
 .contact-info li a {
 	font-size:0.95em;
-	color:#909090;
+	color:#8D8D8D;
 	text-decoration:none;	
 }
 
@@ -957,8 +1017,8 @@ hr {
 .contact-info .email:before,
 .contact-info .adress:before {
 	background:#BA0024;
-	padding:9px 12px 6px 12px;
-	border-radius:3px;
+	padding:10px 12px;
+	border-radius:80px;
 }
 
 /* GOOGLE MAPS ----------------------------------------------------------------------------------------------*/
@@ -1154,9 +1214,49 @@ footer {
 		display:none;	
 	}
 	
+	.call-to-action .btn-border,
+	.call-to-action-boxed .btn-std {
+		text-align:left;	
+	}
 	
+	#subscribe-newsletter fieldset {
+		text-align:left;	
+	}
+
+	#subscribe-newsletter fieldset .button {
+		margin-top:15px;
+		left:0;
+	}
 	
+	.contact-bar .adress,
+	.contact-bar .phone,
+	.contact-bar .email {
+		float:left;
+		text-align:left;
+	}
 	
+	.contact-bar ul li {
+		margin-right:0;	
+	}
+	
+	#copyright2 .copyright {
+		text-align:center;
+	}
+	
+	.developer {
+		text-align:center;
+		margin-top:30px;
+	}
+	
+	#title-page {
+		background:url(../images/bg-title-page-mobile.jpg);
+		background-attachment:inherit;
+	}
+	
+	.title-page {
+		padding:140px 0;
+		margin-top:92px;	
+	}
 	
 	
 	

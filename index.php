@@ -91,8 +91,10 @@
             <h2>Heading (h2)</h2>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula. Vestibulum scelerisque massa vel justo lobortis bibendum.</p>
+            <p>Nam tincidunt tincidunt quam, nec ultricies felis feugiat id. Duis imperdiet lacinia nunc nec vehicula. Integer bibendum at elit non porta. Maecenas pretium magna ut nulla ullamcorper suscipit nec id urna. Sed volutpat vehicula turpis, et aliquam nulla. Vestibulum commodo pulvinar lectus ut consectetur. Nullam id aliquet elit. Aenean justo urna, accumsan ac ligula non, interdum ornare diam.</p>
             <h3>Heading (h3)</h3>
             <p>Sed vitae placerat urna. Ut efficitur, urna luctus ultricies ultricies, felis justo accumsan nisi, et convallis orci diam dapibus justo. Maecenas tempor condimentum mi eu tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget imperdiet velit, ut convallis orci. Donec facilisis lectus leo, ut suscipit urna pretium in. Praesent euismod libero vitae odio pellentesque blandit. Cras a velit vitae metus eleifend commodo at ornare nisi. Morbi ac dignissim neque. Donec ante ex, posuere vitae feugiat in, porttitor at justo.</p>
+            <p>Phasellus pulvinar porta ullamcorper. Suspendisse ut dui porttitor, semper nunc nec, semper massa.</p>
             <h4>Heading (h4)</h4>
             <p>Praesent aliquet aliquet turpis sed cursus. Suspendisse quis mi elit. Sed pharetra nisl vel nulla commodo aliquam. Pellentesque gravida at diam et sollicitudin. Cras pellentesque auctor nulla, vitae pulvinar dui sagittis at. Nullam vitae dui ut est pellentesque blandit. Duis euismod mi vel quam consequat, quis facilisis risus euismod. Sed vel bibendum est, a feugiat arcu.</p>
             <h5>Heading (h5)</h5>
@@ -157,7 +159,9 @@
             <p>Sed tempus orci tempor ligula convallis, vitae semper sem vulputate. Nunc vitae ullamcorper augue. Morbi non metus scelerisque felis pretium aliquam sit amet a turpis. Integer sagittis pretium efficitur.</p>
         </div>
         <div class="col-3-12">
-        	<div class="btn-std btn-round btn-large" style="margin-top:60px;"><a href="" title="Portfólio">Portfólio</a></div>
+        	<div class="button-cta">
+                <div class="btn-std btn-round btn-large" style="margin-top:60px;"><a href="" title="Portfólio">Portfólio</a></div>
+            </div>
         </div>
     </div>
 </section>
@@ -349,6 +353,16 @@
                     <li><a href="" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
                     <li><a href="" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
                     <li><a href="" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="widget-list-border">
+                <h3>Widget List Border</h3>
+                <ul>
+                    <li><a href=""><i class="fa fa-home fa-fw"></i>&nbsp; Home</a></li>
+                    <li><a href=""><i class="fa fa-book fa-fw"></i>&nbsp; Library</a></li>
+                    <li><a href=""><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a></li>
+                    <li style="border-bottom:none;"><a href=""><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a></li>
                 </ul>
             </nav>
             
