@@ -19,7 +19,29 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<?php include('header.php');?>
+<header>
+    <section id="contact-bar-header">
+        <div class="contact-bar grid grid-pad">
+            <ul class="col-1-1">
+                <li class="adress"><i class="icon icon-home"></i><span>Rua Geraldo Lopes da Silva, 50 - Mantiqueira - BH/MG</span></li>
+                <li class="phone"><i class="icon icon-phone"></i><span>(31) 3077-2141 | 8602-6967 | 9386-1225</span></li>
+                <li class="email"><i class="fa fa-envelope"></i><span>contato@clashdesign.com.br</span></li>
+            </ul>
+        </div>
+    </section>
+
+	<div class="grid grid-pad" style="margin-top:-15px;">
+    
+    	<div class="col-2-12">
+            <a href="index.php" class="logo" id="top" data-scroll><img src="images/logo-header.png" width="150" alt="Logo" /></a>
+		</div>     
+               
+    	<div class="col-9-12">
+            <?php include('fixed-menu.php');?>
+        </div>
+        
+	</div>    
+</header>
 
 <!-- TITLE PAGE -->
 <div id="title-page">
@@ -110,30 +132,38 @@
     <div class="grid grid-pad">
         <h1>Buttons</h1>
         <hr class="line-style-gradient">
-        <div class="col-1-3">
-            <p>Default Button</p>
+        <div class="col-1-4">
+            <h6>Default Button</h6>
             <div class="btn-std"><a href="" title="Defaul Button">Button</a></div>
         </div>
-        <div class="col-1-3">
-            <p>Border Button</p>
+        <div class="col-1-4">
+            <h6>Border Button</h6>
             <div class="btn-border"><a href="" title="Border Button">Button</a></div>
         </div>
-        <div class="col-1-3">
-            <p>Round Button</p>
+        <div class="col-1-4">
+            <h6>Round Button</h6>
             <div class="btn-std btn-round"><a href="" title="Round Button">Button</a></div>
         </div>
         
-        <div class="col-1-3">
-            <p>Border Round Button</p>
+        <div class="col-1-4">
+            <h6>Border Round Button</h6>
             <div class="btn-border btn-round"><a href="" title="Border Round Button">Button</a></div>
         </div>
-        <div class="col-1-3">
-            <p>Large Round Button</p>
+        <div class="col-1-4">
+            <h6>Large Round Button</h6>
             <div class="btn-std btn-round btn-large"><a href="" title="Large Round Button">Button</a></div>
         </div>
-        <div class="col-1-3">
-            <p>Large Border Round Button</p>
+        <div class="col-1-4">
+            <h6>Large Border Round Button</h6>
             <div class="btn-border btn-round btn-large"><a href="" title="Large Border Round Button">Button</a></div>
+        </div>
+        <div class="col-1-4">
+            <h6>Large Border Round Icon Button</h6>
+            <div class="btn-border btn-round btn-large"><a href="" title="Large Border Round Icon Button"><i class="icon icon-home"></i>Button</a></div>
+        </div>
+        <div class="col-1-4">
+            <h6>Large Round Icon Button</h6>
+            <div class="btn-std btn-round btn-large"><a href="" title="Large Round Icon Button"><i class="icon icon-home"></i>Button</a></div>
         </div>
 	</div>  
 </section>    
@@ -146,7 +176,7 @@
             <p>Sed tempus orci tempor ligula convallis, vitae semper sem vulputate. Nunc vitae ullamcorper augue. Morbi non metus scelerisque felis pretium aliquam sit amet a turpis. Integer sagittis pretium efficitur.</p>
         </div>
         <div class="col-3-12">
-        	<div class="btn-border btn-round btn-large" style="margin-top:55px;"><a href="" title="Portfólio">Portfólio</a></div>
+        	<div class="btn-border btn-round btn-large"><a href="" title="Portfólio">Portfólio</a></div>
         </div>
     </div>
 </section>
@@ -326,23 +356,23 @@
             <nav class="widget-list">
                 <h3>Widget List</h3>
                 <ul>
-                    <li><a href="" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
+                    <li><a href="" title="Item 01 da lista" target="_self"><i class="fa fa-angle-double-right"></i>Item 01 da lista</a></li>
                     <div class="dotted-line"></div>
-                    <li><a href="" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
+                    <li><a href="" title="Item 02 da lista" target="_self"><i class="fa fa-angle-double-right"></i>Item 02 da lista</a></li>
                     <div class="dotted-line"></div>
-                    <li><a href="" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
+                    <li><a href="" title="Item 03 da lista" target="_self"><i class="fa fa-angle-double-right"></i>Item 03 da lista</a></li>
                     <div class="dotted-line"></div>
-                    <li><a href="" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
+                    <li><a href="" title="Item 04 da lista" target="_self"><i class="fa fa-angle-double-right"></i>Item 04 da lista</a></li>
                 </ul>
             </nav>
             
             <nav class="widget-list-bg-color">
                 <h3>Widget List BG</h3>
                 <ul>
-                    <li><a href="" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
-                    <li><a href="" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
-                    <li><a href="" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
-                    <li><a href="" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
+                    <li><a href="" title="Item 01 da lista" target="_self"><i class="fa fa-chevron-right"></i>Item 01 da lista</a></li>
+                    <li><a href="" title="Item 02 da lista" target="_self"><i class="fa fa-chevron-right"></i>Item 02 da lista</a></li>
+                    <li><a href="" title="Item 03 da lista" target="_self"><i class="fa fa-chevron-right"></i>Item 03 da lista</a></li>
+                    <li><a href="" title="Item 04 da lista" target="_self"><i class="fa fa-chevron-right"></i>Item 04 da lista</a></li>
                 </ul>
             </nav>
             
@@ -359,10 +389,11 @@
             <nav class="widget-list-border">
                 <h3>Widget List Border</h3>
                 <ul>
-                    <li><a href=""><i class="fa fa-home fa-fw"></i>&nbsp; Home</a></li>
-                    <li><a href=""><i class="fa fa-book fa-fw"></i>&nbsp; Library</a></li>
-                    <li><a href=""><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a></li>
-                    <li style="border-bottom:none;"><a href=""><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a></li>
+                    <li><a href=""><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href=""><i class="fa fa-book"></i>Library</a></li>
+                    <li><a href=""><i class="fa fa-pencil"></i>Applications</a></li>
+                    <li><a href=""><i class="icon icon-IcoMoon"></i>Icomoon</a></li>
+                    <li style="border-bottom:none;"><a href=""><i class="fa fa-cog"></i>Settings</a></li>
                 </ul>
             </nav>
             
@@ -398,13 +429,13 @@
         	<div class="col-4-12">
                 <h3>Informações de Contato</h3>
                 <ul>
-                    <li class="phone"><span>+55 31 3077-2141</span></li>
+                    <li class="phone"><i class="icon icon-phone"></i><span>+55 31 3077-2141</span></li>
                     <div class="dotted-line"></div>
-                    <li class="mobile"><span>+55 31 8602-6967 / 9386-1225</span></li>
+                    <li class="mobile"><i class="icon icon-mobile2"></i><span>+55 31 8602-6967 / 9386-1225</span></li>
                     <div class="dotted-line"></div>
-                    <li class="email"><span>contato@clashdesign.com.br</span></li>
+                    <li class="email"><i class="fa fa-envelope"></i><span>contato@clashdesign.com.br</span></li>
                     <div class="dotted-line"></div>
-                    <li class="adress"><span>Rua Geraldo Lopes da Silva, 50 - Mantiqueira</span></li>
+                    <li class="adress"><i class="icon icon-home"></i><span>Rua Geraldo Lopes da Silva, 50 - Mantiqueira</span></li>
                     <div class="dotted-line"></div>
                 </ul>
             </div>
@@ -421,9 +452,9 @@
 <section id="contact-bar">
     <div class="contact-bar grid grid-pad">
         <ul class="col-1-1">
-            <li class="adress"><span>Rua Geraldo Lopes da Silva, 50 - Mantiqueira - BH/MG</span></li>
-            <li class="phone"><span>(31) 3077-2141 | 8602-6967 | 9386-1225</span></li>
-            <li class="email"><span>contato@clashdesign.com.br</span></li>
+            <li class="adress"><i class="icon icon-home"></i><span>Rua Geraldo Lopes da Silva, 50 - Mantiqueira - BH/MG</span></li>
+            <li class="phone"><i class="icon icon-phone"></i><span>(31) 3077-2141 | 8602-6967 | 9386-1225</span></li>
+            <li class="email"><i class="fa fa-envelope"></i><span>contato@clashdesign.com.br</span></li>
         </ul>
     </div>
 </section>
@@ -435,11 +466,10 @@
             <h3>Contato</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam ipsum. Phasellus tempus quis arcu vitae tempor.</p>
             <ul>
-                <li style="list-style-image:url(images/icon-phone.png);"><span>31 3077-2141</span></li>
-                <li style="list-style-image:url(images/icon-mobile.png);"><span>31 8602-6967  |  31 9386-1225</span></li>
-                <li style="list-style-image:url(images/icon-email.png);"><span>contato@clashdesign.com.br</span></li>
-                <li style="list-style-image:url(images/icon-adress.png);"><span>Rua Geraldo Lopes da Silva, 50 - Mantiqueira</span></li>
-                <li style="list-style-image:url(images/icon-null.png);"><span>Belo Horizonte - MG</span></li>
+                <li><i class="icon icon-phone"></i><span>31 3077-2141</span></li>
+                <li><i class="icon icon-mobile2"></i><span>31 8602-6967  |  31 9386-1225</span></li>
+                <li><i class="fa fa-envelope"></i><span>contato@clashdesign.com.br</span></li>
+                <li><i class="icon icon-home"></i><span>Rua Geraldo Lopes da Silva, 50 - Mantiqueira - BH</span></li>
             </ul>
         </div>
         <div class="col-1-3">
@@ -472,7 +502,7 @@
         </div>
         
         <div class="developer col-1-2">
-            <span>By&nbsp;&nbsp;&nbsp;</span><a href="http://www.clashdesign.com.br" target="_blank"><img src="images/logo-developer.png" alt="Clash Design"/></a>
+            <span>DESENVOLVIDO POR</span><a href="http://www.clashdesign.com.br" target="_blank"><img src="images/logo-developer.png" alt="Clash Design"/></a>
         </div>
         
     </div>

@@ -10,7 +10,10 @@
 <link rel="stylesheet" href="css/font-face.css">
 <link rel="stylesheet" href="css/simplegrid.css">
 <link rel="stylesheet" href="css/3Drollovers.css">
+<link rel="stylesheet" href="css/3Drollovers.css">
 <link rel="stylesheet" href="shadowbox/shadowbox.css">
+<link rel="stylesheet" href="css/icomoon.css">
+<link rel="stylesheet" href="css/mfglabs_iconset.css">
 <link rel="stylesheet" href="css/html5-doctor-css-reset.css">
 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>

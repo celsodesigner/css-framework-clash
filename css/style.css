@@ -34,6 +34,10 @@ video {
 	max-width:100%;
 }
 
+.fa, .icon, .mfg {
+	margin-right:10px;	
+}
+
 /* -- Radio Button Fix -- */
 input[type="checkbox"] {-webkit-appearance:checkbox;}
 input[type="radio"] {-webkit-appearance:radio;}
@@ -332,6 +336,10 @@ hr {
 	padding-bottom:80px;
 }
 
+#buttons h6 {
+	margin-top:30px;	
+}
+
 .btn-large,
 .btn-border,
 .btn-std {
@@ -391,11 +399,11 @@ hr {
 }
 
 #contact-bar-header ul {
-	margin-top:-15px;	
+	margin-top:-12px;	
 }
 
 #contact-bar-header ul li {
-	font-size:0.85em;
+	font-size:0.8em;
 }
 
 /* LOGO HEADER -------------------------------------------------------------------------------------------------*/
@@ -448,8 +456,7 @@ hr {
 
 #call-to-action {
 	background:#EEE;	
-	padding-top:40px;
-	padding-bottom:100px;
+	padding:60px 0 80px 0;
 }
 
 .call-to-action h3 {
@@ -460,16 +467,19 @@ hr {
 	text-align:left;
 }
 
+.call-to-action .btn-border {
+	margin-top:35px;	
+}
+
 /* CALL TO ACTION BOXED -------------------------------------------------------------------------------------------*/
 
 #call-to-action-boxed {
-	padding-top:80px;
-	padding-bottom:80px;
+	margin:80px 0;
 }
 
 .call-to-action-boxed {
 	background:#F0F0F0;
-	padding:20px 20px 60px 40px;
+	padding:30px 20px 50px 40px;
 	border-left:5px solid #BA0024;
 }
 
@@ -486,8 +496,7 @@ hr {
 
 #newsletter {
 	background:#EEE;	
-	padding-top:40px;
-	padding-bottom:100px;
+	padding:40px 0 60px 0;
 }
 
 .newsletter h3 {
@@ -502,7 +511,7 @@ hr {
 
 #subscribe-newsletter fieldset {
 	border:none;	
-	margin-top:50px;
+	margin-top:30px;
 	text-align:right;
 }
 
@@ -759,7 +768,6 @@ hr {
 }
 
 .widget-list li {
-	list-style-image:url(../images/marker-01.png);
 	list-style-position:inside;
 	margin:8px 0;
 }
@@ -774,6 +782,11 @@ hr {
 	color:#BA0024;
 }
 
+.widget-list i {
+	color:#BA0024;
+}
+
+
 /* WIDGET LIST BG COLOR ----------------------------------------------------------------------------------------------*/
 
 .widget-list-bg-color {
@@ -786,7 +799,6 @@ hr {
 }
 
 .widget-list-bg-color li {
-	list-style-image:url(../images/marker-02-white.png);
 	list-style-position:inside;
 	background:#BA0024;
 	margin-top:1px;
@@ -803,6 +815,10 @@ hr {
 	color:#fff;
 	text-decoration:none;	
 	padding:10px 100px 10px 0;
+}
+
+.widget-list-bg-color i {
+	font-size:0.7em;
 }
 
 /* WIDGET LIST SIMPLE ---------------------------------------------------------------------------------------*/
@@ -889,12 +905,12 @@ hr {
 	margin:30px 0;
 }
 
-.attention-messages {
+.alert-messages {
 	width:99%;	
 	display:none;
 }
 
-.attention-messages span {
+.alert-messages span {
 	position:relative;
 	top:-3px;	
 }
@@ -905,7 +921,7 @@ hr {
 }
 
 .error-message li {
-	list-style-image:url(../images/icon-attention.png);
+	list-style-image:url(../images/icon-alert.png);
 	list-style-position:inside;	
 }
 
@@ -990,34 +1006,13 @@ hr {
 	text-decoration:none;	
 }
 
-.contact-info span {
-	position:relative;
-	top:-2px;
-	left:12px;
-}
-
-.contact-info .phone:before {
-	content:url(../images/icon-phone-white.png);
-}
-
-.contact-info .mobile:before {
-	content:url(../images/icon-mobile-white.png);
-}
-
-.contact-info .email:before {
-	content:url(../images/icon-email-white.png);
-}
-
-.contact-info .adress:before {
-	content:url(../images/icon-adress-white.png);
-}
-
-.contact-info .phone:before,
-.contact-info .mobile:before,
-.contact-info .email:before,
-.contact-info .adress:before {
+.contact-info i,
+.contact-info i,
+.contact-info i,
+.contact-info i {
+	color:#fff;
 	background:#BA0024;
-	padding:10px 12px;
+	padding:10px;
 	border-radius:80px;
 }
 
@@ -1058,34 +1053,21 @@ hr {
 	margin:0 50px 0 0;
 }
 
-.contact-bar span {
-	position:relative;
-	top:-2px;
-	left:5px;
-}
-
-.contact-bar .adress:before {
-	content:url(../images/icon-adress.png);
-}
-
 .contact-bar .adress {
 	float:left;
-}
-
-.contact-bar .phone:before {
-	content:url(../images/icon-phone.png);
-}
-
-.contact-bar .email:before {
-	content:url(../images/icon-email.png);
 }
 
 .contact-bar .email {
 	float:right;
 }
 
-.contact-bar .mobile:before {
-	content:url(../images/icon-mobile.png);
+.contact-bar .phone {
+	position:relative;
+	top:-2px;
+}
+
+.contact-bar i {
+	color:#BA0024;
 }
 
 /* FOOTER ----------------------------------------------------------------------------------------------*/
@@ -1098,7 +1080,6 @@ footer {
 /* WIDGET CONTACT ----------------------------------------------------------------------------------------------*/
 
 .widget-contact {
-	color:#767784;
 	text-align:left;	
 }
 
@@ -1112,15 +1093,12 @@ footer {
 	list-style-position:inside;
 }
 
-.widget-contact p {
-	padding-right:15px;
+.widget-contact span {
+	line-height:23px;
 }
 
-.widget-contact span {
-	position:relative;
-	left:5px;
-	top:-1px;
-	line-height:23px;
+.widget-contact i {
+	color:#BA0024;	
 }
 
 /* FACEBOOK PAGE -------------------------------------------------------------------------------------------------------*/
@@ -1161,7 +1139,7 @@ footer {
 
 .developer {
 	text-align:right;
-	font-size:0.8em;
+	font-size:0.6em;
 }
 
 .developer a {
@@ -1174,7 +1152,8 @@ footer {
 
 .developer span {
 	position:relative;
-	top:-4px;	
+	top:-2px;	
+	margin-right:8px;
 }
 
 /* MEDIA QUERIES -------------------------------------------------------------------------------------------*/
