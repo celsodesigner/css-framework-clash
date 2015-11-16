@@ -1,3 +1,10 @@
+.rollover {
+	position:relative;
+	display:block;
+	width:;
+	height:;
+}
+
 .front {
   z-index: 2;
   position: absolute;

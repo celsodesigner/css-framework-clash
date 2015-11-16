@@ -65,6 +65,255 @@
     </div>
 </section>
 
+<!-- CONTENT/SIDEBAR -->
+<section id="content-sidebar">
+     <div class="grid grid-pad">
+     	<div class="content col-9-12">
+            <h1>Content</h1>
+            <hr class="line-style-gradient">
+        
+        	<!-- PARÁGRAFOS -->
+            <article class="paragraph">
+                <h2>Heading (h2)</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula. Vestibulum scelerisque massa vel justo lobortis bibendum.</p>
+                <p>Nam tincidunt tincidunt quam, nec ultricies felis feugiat id. Duis imperdiet lacinia nunc nec vehicula. Integer bibendum at elit non porta. Maecenas pretium magna ut nulla ullamcorper suscipit nec id urna. Sed volutpat vehicula turpis, et aliquam nulla.</p>
+                <h3>Heading (h3)</h3>
+                <p>Sed vitae placerat urna. Ut efficitur, urna luctus ultricies ultricies, felis justo accumsan nisi, et convallis orci diam dapibus justo. Maecenas tempor condimentum mi eu tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget imperdiet velit, ut convallis orci.</p>
+                <h4>Heading (h4)</h4>
+                <p>Praesent aliquet aliquet turpis sed cursus. Suspendisse quis mi elit. Sed pharetra nisl vel nulla commodo aliquam. Pellentesque gravida at diam et sollicitudin. Cras pellentesque auctor nulla, vitae pulvinar dui sagittis at. Nullam vitae dui ut est pellentesque blandit. Duis euismod mi vel quam consequat, quis facilisis risus euismod. Sed vel bibendum est, a feugiat arcu.</p>
+                <h5>Heading (h5)</h5>
+                <p>Ut in hendrerit neque. Aliquam in neque non risus eleifend malesuada. Sed vestibulum dolor vitae libero ornare, sed facilisis est hendrerit. Nam vitae odio et felis congue bibendum a ut nulla. Donec pharetra dignissim eros eu maximus.</p>
+                <h6>Heading (h6)</h6>
+                <p><strong>strong</strong> <b>bold</b> <i>italic</i> <em>emphasis</em></p>
+            </article>
+                    
+            <!-- VIDEO CONTAINER -->
+            <article class="videos">
+                <h1>Vídeos</h1>
+                <hr class="line-style-gradient">
+            
+            	<div class="col-1-2">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/qM96VCbrUhQ?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <legend>Save The Date - <span>Renata e Flaviano</span></legend>
+            	</div>
+                
+            	<div class="col-1-2">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/116359501?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <legend>Save The Date - <span>Jéssica e Leonardo</span></legend>
+                </div>    
+                
+            </article>
+            
+            <div class="clear"></div>
+             
+            <!-- SHADOWBOX -->       
+            <article class="shadowbox">
+                <h1>Shadowbox</h1>
+                <hr class="line-style-gradient">
+                
+                <div class="image-shadowbox col-1-2">
+                    <div class="fade">
+                        <a class="rollover" href="images/shadowbox.jpg" title="Imagem Shadowbox" rel="shadowbox">
+                            <figure class="cube">
+                                <img src="images/thumb-shadowbox.jpg" width="420" class="front" alt="Thumb" title="Título da imagem">
+                                <img src="images/thumb-shadowbox-hover.jpg" width="420" class="back" alt="Thumb Hover" title="Título da imagem">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="image-shadowbox col-1-2">
+                    <div class="fade">
+                        <a class="rollover" href="images/shadowbox.jpg" title="Imagem Shadowbox" rel="shadowbox">
+                            <figure class="cube">
+                                <img src="images/thumb-shadowbox.jpg" width="420" class="front" alt="Thumb" title="Título da imagem">
+                                <img src="images/thumb-shadowbox-hover.jpg" width="420" class="back" alt="Thumb Hover" title="Título da imagem">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="video-shadowbox col-1-1">
+                    <div class="fade">
+                        <a href="http://www.youtube.com/v/Web6izcx3UY&hl=pt_BR&fs=1&amp;rel=0&amp;autoplay=1" class="rollover" rel="shadowbox;width=800;height=450" title="">
+                            <figure class="cube">
+                                <img src="images/thumbs-shadowbox-video.jpg" width="845" class="front" alt="Thumb" title="Título da imagem">
+                                <img src="images/thumbs-shadowbox-video-hover.jpg" width="845" class="back" alt="Thumb Hover" title="Título da imagem">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+        
+            </article>
+            
+            <div class="clear"></div>
+            
+            <div class="spacer40"></div>
+            
+            <!-- ACCORDION EFFECT -->
+            <div class="accordion-effect">
+                <h1>Accordion Effect</h1>
+                <hr class="line-style-gradient">
+                <div class="spacer10"></div>
+                <div class="accordion-list">
+                    <div class="accordion" id="nav-section1">1. Maecenas efficitur nisi sit amet eleifend finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span></span></div>
+                    <ul>
+                        <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis malesuada ipsum. Vivamus consectetur pulvinar neque, ut mattis massa consectetur sed. Donec lorem mauris, sagittis eget sodales at, viverra vitae diam. Sed vitae enim quis tortor gravida consequat. Mauris elementum semper nibh eget dapibus.</a></li>
+                    </ul>
+                    
+                    <div class="accordion" id="nav-section2">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+                    <ul>
+                        <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+                    </ul>
+                    
+                    <div class="accordion" id="nav-section3">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+                    <ul>
+                        <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+                    </ul>
+                    
+                    <div class="accordion" id="nav-section4">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+                    <ul>
+                        <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            <!-- TABS -->
+            <div id="tabs">
+                <h1>TABS</h1>
+                <hr class="line-style-gradient">
+                <div class="tabs">
+                     
+                    <input type="radio" name="tabs" id="tab1" checked >
+                    <label for="tab1">
+                        <i class="fa fa-html5"></i><span>HTML5</span>
+                    </label>
+                 
+                    <input type="radio" name="tabs" id="tab2">
+                    <label for="tab2">
+                        <i class="fa fa-css3"></i><span>CSS3</span>
+                    </label>
+                    
+                    <input type="radio" name="tabs" id="tab3">
+                    <label for="tab3">
+                        <i class="fa fa-code"></i><span>jQuery</span>
+                    </label>
+                 
+                    <div id="tab-content1" class="tab-content">
+                        <h3>HTML5 Snippets</h3>
+                        <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web.</p>
+                    </div>
+                    <div id="tab-content2" class="tab-content">
+                        <h3>CSS3 Snippets</h3>
+                        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.</p>
+                    </div>
+                    <div id="tab-content3" class="tab-content">
+                        <h3>jQuery</h3>
+                        <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+        </div>
+        
+        <aside class="sidebar col-3-12">
+        	<h1>Sidebar</h1>
+            <hr class="line-style-gradient">
+        
+            <nav class="widget-nav">
+                <h3>Widget Nav</h3>
+                <ul>
+                    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Item 01 da lista</a></li>
+                    <div class="dotted-line"></div>
+                    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Item 02 da lista</a></li>
+                    <div class="dotted-line"></div>
+                    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Item 03 da lista</a></li>
+                    <div class="dotted-line"></div>
+                    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Item 04 da lista</a></li>
+                    <div class="dotted-line"></div>
+                    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Item 05 da lista</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="widget-nav-bg-color">
+                <h3>Widget Nav BG</h3>
+                <ul>
+                    <li><a href="" title=""><i class="fa fa-chevron-right"></i>Item 01 da lista</a></li>
+                    <li><a href="" title=""><i class="fa fa-chevron-right"></i>Item 02 da lista</a></li>
+                    <li><a href="" title=""><i class="fa fa-chevron-right"></i>Item 03 da lista</a></li>
+                    <li><a href="" title=""><i class="fa fa-chevron-right"></i>Item 04 da lista</a></li>
+                    <li><a href="" title=""><i class="fa fa-chevron-right"></i>Item 05 da lista</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="widget-nav-simple">
+                <h3>Widget Nav Simple</h3>
+                <ul>
+                    <li><a href="" title="">Item 01 da lista</a></li>
+                    <li><a href="" title="">Item 02 da lista</a></li>
+                    <li><a href="" title="">Item 03 da lista</a></li>
+                    <li><a href="" title="">Item 04 da lista</a></li>
+                    <li><a href="" title="">Item 05 da lista</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="widget-nav-border">
+                <h3>Widget Nav Border</h3>
+                <ul>
+                    <li><a href=""><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href=""><i class="fa fa-book"></i>Library</a></li>
+                    <li><a href=""><i class="fa fa-pencil"></i>Applications</a></li>
+                    <li><a href=""><i class="icon icon-IcoMoon"></i>Icomoon</a></li>
+                    <li><a href=""><i class="icon icon-android"></i>Android</a></li>
+                    <li style="border-bottom:none;"><a href=""><i class="fa fa-cog"></i>Settings</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="widget-nav-shadow">
+                <h3>Widget Nav Shadow</h3>
+                <ul>
+                    <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+                    <li><a href=""><i class="fa fa-angle-double-right"></i>Library</a></li>
+                    <li><a href=""><i class="fa fa-angle-double-right"></i>Applications</a></li>
+                    <li><a href=""><i class="fa fa-angle-double-right"></i>Icomoon</a></li>
+                    <li><a href=""><i class="fa fa-angle-double-right"></i>Android</a></li>
+                    <li style="border-bottom:none;"><a href=""><i class="fa fa-angle-double-right"></i>Settings</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="accordion-effect">
+                <h3>Nav Accordion</h3>
+                <div class="accordion-list">
+                    <div class="accordion" id="nav-section1">Item 01 da Lista<span></span></div>
+                    <ul>
+                        <li><a href="">Sub Item</a></li>
+                        <li><a href="">Sub Item</a></li>
+                        <li><a href="">Sub Item</a></li>
+                        <li><a href="">Sub Item</a></li>
+                    </ul>
+                    <div class="accordion" id="nav-section2">Item 02 da Lista<span></span></div>
+                    <ul><li><a href="">Sub Item</a></li></ul>
+                    <div class="accordion" id="nav-section3">Item 03 da Lista<span></span></div>
+                    <ul><li><a href="">Sub Item</a></li></ul>
+                    <div class="accordion" id="nav-section4">Item 04 da Lista<span></span></div>
+                    <ul><li><a href="">Sub Item</a></li></ul>
+                    <div class="accordion" id="nav-section4">Item 05 da Lista<span></span></div>
+                    <ul><li><a href="">Sub Item</a></li></ul>
+                </div>
+            </nav>
+            
+        </aside>
+	</div>   
+</section>
+
 <!-- TITLE LINES -->
 <section id="line-styles">
 	<div class="grid grid-pad"> 
@@ -104,28 +353,6 @@
     </div>
 </section>
 
-<!-- CONTENT -->
-<section id="content">
-    <div class="content grid grid-pad">
-    	<div class="col-1-1">
-            <h1>Formatação de Texto</h1>
-            <hr class="line-style-gradient">
-            <h2>Heading (h2)</h2>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula. Vestibulum scelerisque massa vel justo lobortis bibendum.</p>
-            <p>Nam tincidunt tincidunt quam, nec ultricies felis feugiat id. Duis imperdiet lacinia nunc nec vehicula. Integer bibendum at elit non porta. Maecenas pretium magna ut nulla ullamcorper suscipit nec id urna. Sed volutpat vehicula turpis, et aliquam nulla. Vestibulum commodo pulvinar lectus ut consectetur. Nullam id aliquet elit. Aenean justo urna, accumsan ac ligula non, interdum ornare diam.</p>
-            <h3>Heading (h3)</h3>
-            <p>Sed vitae placerat urna. Ut efficitur, urna luctus ultricies ultricies, felis justo accumsan nisi, et convallis orci diam dapibus justo. Maecenas tempor condimentum mi eu tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget imperdiet velit, ut convallis orci. Donec facilisis lectus leo, ut suscipit urna pretium in. Praesent euismod libero vitae odio pellentesque blandit. Cras a velit vitae metus eleifend commodo at ornare nisi. Morbi ac dignissim neque. Donec ante ex, posuere vitae feugiat in, porttitor at justo.</p>
-            <p>Phasellus pulvinar porta ullamcorper. Suspendisse ut dui porttitor, semper nunc nec, semper massa.</p>
-            <h4>Heading (h4)</h4>
-            <p>Praesent aliquet aliquet turpis sed cursus. Suspendisse quis mi elit. Sed pharetra nisl vel nulla commodo aliquam. Pellentesque gravida at diam et sollicitudin. Cras pellentesque auctor nulla, vitae pulvinar dui sagittis at. Nullam vitae dui ut est pellentesque blandit. Duis euismod mi vel quam consequat, quis facilisis risus euismod. Sed vel bibendum est, a feugiat arcu.</p>
-            <h5>Heading (h5)</h5>
-            <p>Ut in hendrerit neque. Aliquam in neque non risus eleifend malesuada. Sed vestibulum dolor vitae libero ornare, sed facilisis est hendrerit. Nam vitae odio et felis congue bibendum a ut nulla. Donec pharetra dignissim eros eu maximus.</p>
-            <h6>Heading (h6)</h6>
-            <p><strong>strong</strong> <b>bold</b> <i>italic</i> <em>emphasis</em></p>
-        </div>
-    </div>
-</section>
 
 <!-- BUTTONS -->
 <section id="buttons">
@@ -217,190 +444,6 @@
     </div>
 </section>
 
-<!-- ACCORDION EFFECT -->
-<section id="accordion-effect">
-	<div class="grid grid-pad">
-        <div class="accordion-effect col-1-1">
-            <h1>Accordion Effect</h1>
-            <hr class="line-style-gradient">
-         	<div class="spacer20"></div>
-            
-            <div class="accordion" id="nav-section1">1. Maecenas efficitur nisi sit amet eleifend finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span></span></div>
-            <ul>
-                <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis malesuada ipsum. Vivamus consectetur pulvinar neque, ut mattis massa consectetur sed. Donec lorem mauris, sagittis eget sodales at, viverra vitae diam. Sed vitae enim quis tortor gravida consequat. Mauris elementum semper nibh eget dapibus.</a></li>
-            </ul>
-            
-            <div class="accordion" id="nav-section2">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
-            <ul>
-                <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
-            </ul>
-            
-            <div class="accordion" id="nav-section3">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
-            <ul>
-                <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
-            </ul>
-            
-            <div class="accordion" id="nav-section4">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
-            <ul>
-                <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
-            </ul>
-            
-        </div>
-    </div>
-</section>
-
-<!-- TABS -->
-<div id="tabs">
-    <div class="grid grid-pad">
-        <h1>TABS</h1>
-        <hr class="line-style-gradient">
-        <div class="tabs col-1-1">
-             
-            <input type="radio" name="tabs" id="tab1" checked >
-            <label for="tab1">
-                <i class="fa fa-html5"></i><span>HTML5</span>
-            </label>
-         
-            <input type="radio" name="tabs" id="tab2">
-            <label for="tab2">
-                <i class="fa fa-css3"></i><span>CSS3</span>
-            </label>
-            
-            <input type="radio" name="tabs" id="tab3">
-            <label for="tab3">
-                <i class="fa fa-code"></i><span>jQuery</span>
-            </label>
-         
-            <div id="tab-content1" class="tab-content">
-                <h3>HTML5 Snippets</h3>
-                <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web.</p>
-            </div>
-            <div id="tab-content2" class="tab-content">
-                <h3>CSS3 Snippets</h3>
-                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.</p>
-            </div>
-            <div id="tab-content3" class="tab-content">
-                <h3>jQuery</h3>
-                <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
-            </div>
-                
-        </div>
-    </div>
-</div>
-
-<!-- VIDEO CONTAINER -->
-<section id="video-container">
-	<div class="grid grid-pad">
-        <h1>Video Container</h1>
-        <hr class="line-style-gradient">
-        <div class="col-1-2">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/qM96VCbrUhQ?rel=0" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <legend>Save The Date - <span>Renata e Flaviano</span></legend>
-        </div>
-        
-        <div class="col-1-2">
-            <div class="video-container">
-                <iframe src="https://player.vimeo.com/video/116359501?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-            <legend>Save The Date - <span>Jéssica e Leonardo</span></legend>
-        </div>
-    </div>
-</section>
-
-<!-- SHADOWBOX - SIDEBAR -->
-<section id="shadowbox-sidebar">
-     <div class="grid grid-pad">
-        <h1>Shadowbox - Sidebar</h1>
-        <hr class="line-style-gradient">
-        <article class="shadowbox col-9-12">
-        
-            <div class="col-1-2">
-                <div class="fade">
-                    <a class="rollover" href="images/shadowbox.jpg" title="Imagem Shadowbox" rel="shadowbox">
-                        <figure class="cube">
-                            <img src="images/thumb-shadowbox.jpg" width="390" class="front" alt="Thumb" title="Título da imagem">
-                            <img src="images/thumb-shadowbox-hover.jpg" width="390" class="back" alt="Thumb Hover" title="Título da imagem">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-    
-            <div class="col-1-2">
-                <div class="fade">
-                    <a class="rollover" href="images/shadowbox.jpg" title="Imagem Shadowbox" rel="shadowbox">
-                        <figure class="cube">
-                            <img src="images/thumb-shadowbox.jpg" width="390" class="front" alt="Thumb" title="Título da imagem">
-                            <img src="images/thumb-shadowbox-hover.jpg" width="390" class="back" alt="Thumb Hover" title="Título da imagem">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-    
-            <div class="col-1-1">
-                <div class="fade">
-                    <a href="http://www.youtube.com/v/Web6izcx3UY&hl=pt_BR&fs=1&amp;rel=0&amp;autoplay=1" class="rollover" rel="shadowbox;width=800;height=450" title="">
-                        <figure class="cube">
-                            <img src="images/thumbs-shadowbox-video.jpg" width="822" class="front" alt="Thumb" title="Título da imagem">
-                            <img src="images/thumbs-shadowbox-video-hover.jpg" width="822" class="back" alt="Thumb Hover" title="Título da imagem">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-    
-        </article>
-        
-        <aside class="sidebar col-3-12">
-        
-            <nav class="widget-list">
-                <h3>Widget List</h3>
-                <ul>
-                    <li><a href="" title="Item 01 da lista" target="_self"><i class="fa fa-angle-double-right"></i>Item 01 da lista</a></li>
-                    <div class="dotted-line"></div>
-                    <li><a href="" title="Item 02 da lista" target="_self"><i class="fa fa-angle-double-right"></i>Item 02 da lista</a></li>
-                    <div class="dotted-line"></div>
-                    <li><a href="" title="Item 03 da lista" target="_self"><i class="fa fa-angle-double-right"></i>Item 03 da lista</a></li>
-                    <div class="dotted-line"></div>
-                    <li><a href="" title="Item 04 da lista" target="_self"><i class="fa fa-angle-double-right"></i>Item 04 da lista</a></li>
-                </ul>
-            </nav>
-            
-            <nav class="widget-list-bg-color">
-                <h3>Widget List BG</h3>
-                <ul>
-                    <li><a href="" title="Item 01 da lista" target="_self"><i class="fa fa-chevron-right"></i>Item 01 da lista</a></li>
-                    <li><a href="" title="Item 02 da lista" target="_self"><i class="fa fa-chevron-right"></i>Item 02 da lista</a></li>
-                    <li><a href="" title="Item 03 da lista" target="_self"><i class="fa fa-chevron-right"></i>Item 03 da lista</a></li>
-                    <li><a href="" title="Item 04 da lista" target="_self"><i class="fa fa-chevron-right"></i>Item 04 da lista</a></li>
-                </ul>
-            </nav>
-            
-            <nav class="widget-list-simple">
-                <h3>Widget List Simple</h3>
-                <ul>
-                    <li><a href="" title="Item 01 da lista" target="_self">Item 01 da lista</a></li>
-                    <li><a href="" title="Item 02 da lista" target="_self">Item 02 da lista</a></li>
-                    <li><a href="" title="Item 03 da lista" target="_self">Item 03 da lista</a></li>
-                    <li><a href="" title="Item 04 da lista" target="_self">Item 04 da lista</a></li>
-                </ul>
-            </nav>
-            
-            <nav class="widget-list-border">
-                <h3>Widget List Border</h3>
-                <ul>
-                    <li><a href=""><i class="fa fa-home"></i>Home</a></li>
-                    <li><a href=""><i class="fa fa-book"></i>Library</a></li>
-                    <li><a href=""><i class="fa fa-pencil"></i>Applications</a></li>
-                    <li><a href=""><i class="icon icon-IcoMoon"></i>Icomoon</a></li>
-                    <li style="border-bottom:none;"><a href=""><i class="fa fa-cog"></i>Settings</a></li>
-                </ul>
-            </nav>
-            
-        </aside>
-	</div>   
-</section>
-
 <!-- CONTACT-FORM -->
 <section id="contact-form">
     <div class="contact-form grid grid-pad">
@@ -436,7 +479,6 @@
                     <li class="email"><i class="fa fa-envelope"></i><span>contato@clashdesign.com.br</span></li>
                     <div class="dotted-line"></div>
                     <li class="adress"><i class="icon icon-home"></i><span>Rua Geraldo Lopes da Silva, 50 - Mantiqueira</span></li>
-                    <div class="dotted-line"></div>
                 </ul>
             </div>
         </nav>
@@ -501,9 +543,14 @@
             <div class="copyright">&copy; <?php echo date("Y"); ?> Nome da Empresa  |  Todos os direitos reservados</div>
         </div>
         
-        <div class="developer col-1-2">
-            <span>DESENVOLVIDO POR</span><a href="http://www.clashdesign.com.br" target="_blank"><img src="images/logo-developer.png" alt="Clash Design"/></a>
-        </div>
+        <div class="developer fade col-1-2">
+          <a class="rollover" href="http://www.clashdesign.com.br" target="_blank">
+            <figure class="cube">
+              <img src="images/logo-developer.png" class="front" alt="">
+              <img src="images/logo-developer-hover.png" class="back" alt="">
+            </figure>
+          </a>
+        </div>        
         
     </div>
 </section>
