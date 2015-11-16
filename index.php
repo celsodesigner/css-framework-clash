@@ -47,7 +47,7 @@
 <div id="title-page">
 	<div class="title-page grid grid-pad">
 		<div class="col-1-1">    
-            <h1></h1>
+            <h1>Clash CSS Framework</h1>
         </div>
     </div>
 </div>
