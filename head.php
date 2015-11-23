@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="css/font-face.css">
 <link rel="stylesheet" href="css/simplegrid.css">
 <link rel="stylesheet" href="css/3Drollovers.css">
-<link rel="stylesheet" href="css/3Drollovers.css">
 <link rel="stylesheet" href="shadowbox/shadowbox.css">
 <link rel="stylesheet" href="css/icomoon.css">
 <link rel="stylesheet" href="css/mfglabs_iconset.css">
