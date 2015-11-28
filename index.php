@@ -3,7 +3,7 @@
 <head>
 <?php include('head.php');?>
 <meta name="description" content="Descrição do site ou da página - Terceira linha da busca do Google." />
-<title>Framework CSS Clash</title>
+<title>Clash CSS Framework</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 
