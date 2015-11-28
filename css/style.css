@@ -267,14 +267,14 @@ legend span {
 
 .video-container {
 	position:relative; /* keeps the aspect ratio */
-	padding-bottom: 56.25%; /* fine tunes the video positioning */
-	overflow: hidden;
+	padding-bottom:56.25%; /* fine tunes the video positioning */
+	overflow:hidden;
 	margin-top:30px;
 }
 
 .video-container iframe,
 .video-container object,
-.video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+.video-container embed { position:absolute; top:0; left:0; width:100%; height:100%;
 }
 
 .video-container iframe {
@@ -664,11 +664,6 @@ legend span {
 
 /* LINE STYLES ----------------------------------------------------------------------------------------------------*/
 
-#line-styles {
-	background:#EEE;	
-	padding:40px 0;
-}
-
 hr {
 	display:block;
 	border:0;
@@ -747,7 +742,8 @@ hr {
 	padding:0;
 	border:none;
 	border-top:medium double #D2D2D2;
-	color:#D2D2D2; text-align: center;
+	color:#D2D2D2;
+	text-align:center;
 }
 
 .line-style-glyph:after {
@@ -757,7 +753,7 @@ hr {
 	top:-16px;
 	font-size:1.3em;
 	padding:0 10px;
-	background:#EEE;
+	background:#FFF;
 }
 
 /* LINE STYLE DIAGONAL --------------------------------------------------------------------------------------------------*/
@@ -844,6 +840,107 @@ hr {
 .btn-large a:hover {
 	padding:12px 35px;
 }
+
+/* SERVICES ------------------------------------------------------------------------------------------------------*/
+
+.services {
+	padding-bottom:50px;
+}
+
+.single-service {
+	margin-top:30px;
+	padding-bottom:10px;	
+	text-align:left;
+}
+
+.icon-service {
+	float:left;	
+	font-size:1.5em;
+	color:#BA0024;
+}
+
+.single-service a {
+	cursor:default;	
+	background:#EBEBEB;
+	border-radius:50px;
+	padding:10px 4px 10px 14px;
+	margin-right:10px;
+}
+
+.services h2 {
+	font-weight:400;
+	font-size:1.2em;	
+	text-transform:uppercase;
+}
+
+.services p {
+	margin:10px 0 0 63px;
+}
+
+/* TESTIMONIALS ------------------------------------------------------------------------------------------------*/
+
+blockquote {
+	margin-top:30px;	
+	text-align:left;	
+	padding-bottom:60px;	
+}
+
+.content-testimonial {
+	padding:30px 20px 1px 20px;
+	background:#4F4F4F;
+	color:#AAAAAA;
+}
+
+.aspas:before {
+	font-family:Constantia, serif;
+	content:"“";
+	font-size:6em;
+	float:left;
+	margin:-15px 10px 0 0;
+}
+
+blockquote p {
+	margin-left:50px;	
+}
+
+.arrow-baloon {
+	content:"";
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:50px;
+	width:0; 
+	height:0; 
+	border-top:15px solid #4F4F4F;
+	border-right:20px solid transparent;
+	float:left;
+}
+
+.image-deponent {
+	float:left;	
+	margin:15px 20px 0 0;
+}
+
+.content-deponent {
+	margin-top:30px;
+}
+
+.name-deponent {
+	font-weight:700;
+	font-size:1.1em;
+	color:#555;	
+}
+
+.function-deponent {
+	font-style:italic;	
+}
+
+.location-deponent {
+	font-weight:700;
+	color:#BA0024;	
+}
+
+
+
 
 /* CALL TO ACTION ------------------------------------------------------------------------------------------------*/
 
@@ -1032,8 +1129,7 @@ hr {
 /* CONTACT-FORM/CONTACT-INFO ----------------------------------------------------------------------------------------------*/
 
 #contact-form-contact-info {
-	background:#EEE;	
-	padding:20px 0 60px 0;
+	padding-bottom:60px;
 }
 
 .contact-info {
@@ -1066,22 +1162,23 @@ hr {
 
 #google-map {
 	margin-bottom:-4px;	
+	border-top:1px solid #D2D2D2;
 }
 
 .hue-rotate {
-	filter: hue-rotate(220deg);
-	-webkit-filter: hue-rotate(220deg);
-	-moz-filter: hue-rotate(220deg);
-	-o-filter: hue-rotate(220deg);
-	-ms-filter: hue-rotate(220deg);
+	filter:hue-rotate(220deg);
+	-webkit-filter:hue-rotate(220deg);
+	-moz-filter:hue-rotate(220deg);
+	-o-filter:hue-rotate(220deg);
+	-ms-filter:hue-rotate(220deg);
 }
 
 .desaturate {
-	filter: saturate(50%);
-	-webkit-filter: saturate(500%);
-	-moz-filter: saturate(500%);
-	-o-filter: saturate(500%);
-	-ms-filter: saturate(500%);	
+	filter:saturate(50%);
+	-webkit-filter:saturate(500%);
+	-moz-filter:saturate(500%);
+	-o-filter:saturate(500%);
+	-ms-filter:saturate(500%);	
 }
 
 /* CONTACT BAR ----------------------------------------------------------------------------------------------*/
@@ -1281,7 +1378,21 @@ footer {
 		margin-top:92px;	
 	}
 	
+	.single-service {
+		text-align:center;	
+	}
 	
+	.icon-service {
+		float:none;	
+	}
+	
+	.services h2 {
+		margin-top:20px;	
+	}
+	
+	.services p {
+		margin-left:0;	
+	}
 	
 }
 

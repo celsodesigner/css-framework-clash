@@ -154,74 +154,6 @@
             
             <div class="spacer40"></div>
             
-            <!-- ACCORDION EFFECT -->
-            <div class="accordion-effect">
-                <h1>Accordion Effect</h1>
-                <hr class="line-style-gradient">
-                <div class="spacer10"></div>
-                <div class="accordion-list">
-                    <div class="accordion" id="nav-section1">1. Maecenas efficitur nisi sit amet eleifend finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span></span></div>
-                    <ul>
-                        <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis malesuada ipsum. Vivamus consectetur pulvinar neque, ut mattis massa consectetur sed. Donec lorem mauris, sagittis eget sodales at, viverra vitae diam. Sed vitae enim quis tortor gravida consequat. Mauris elementum semper nibh eget dapibus.</a></li>
-                    </ul>
-                    
-                    <div class="accordion" id="nav-section2">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
-                    <ul>
-                        <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
-                    </ul>
-                    
-                    <div class="accordion" id="nav-section3">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
-                    <ul>
-                        <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
-                    </ul>
-                    
-                    <div class="accordion" id="nav-section4">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
-                    <ul>
-                        <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="clear"></div>
-            
-            <!-- TABS -->
-            <div id="tabs">
-                <h1>TABS</h1>
-                <hr class="line-style-gradient">
-                <div class="tabs">
-                     
-                    <input type="radio" name="tabs" id="tab1" checked >
-                    <label for="tab1">
-                        <i class="fa fa-html5"></i><span>HTML5</span>
-                    </label>
-                 
-                    <input type="radio" name="tabs" id="tab2">
-                    <label for="tab2">
-                        <i class="fa fa-css3"></i><span>CSS3</span>
-                    </label>
-                    
-                    <input type="radio" name="tabs" id="tab3">
-                    <label for="tab3">
-                        <i class="fa fa-code"></i><span>jQuery</span>
-                    </label>
-                 
-                    <div id="tab-content1" class="tab-content">
-                        <h3>HTML5 Snippets</h3>
-                        <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web.</p>
-                    </div>
-                    <div id="tab-content2" class="tab-content">
-                        <h3>CSS3 Snippets</h3>
-                        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.</p>
-                    </div>
-                    <div id="tab-content3" class="tab-content">
-                        <h3>jQuery</h3>
-                        <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="clear"></div>
-            
         </div>
         
         <aside class="sidebar col-3-12">
@@ -395,6 +327,191 @@
 	</div>  
 </section>    
 
+<!-- SERVICES -->
+<section id="services">
+	<div class="services grid grid-pad">
+    	<div class="col-1-1">
+        	<h1>Services</h1>
+            <hr class="line-style-gradient">
+            
+            <div class="single-service col-1-3">
+            	<div class="icon-service"><a><i class="icon icon-home"></i></a></div>
+                <h2>Serviço 1</h2>
+                <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula.</p>
+            </div>
+        
+            <div class="single-service col-1-3">
+            	<div class="icon-service"><a><i class="icon icon-database"></i></a></div>
+                <h2>Serviço 2</h2>
+                <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula.</p>
+            </div>
+        
+            <div class="single-service col-1-3">
+            	<div class="icon-service"><a><i class="icon icon-target"></i></a></div>
+                <h2>Serviço 3</h2>
+                <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula.</p>
+            </div>
+        
+            <div class="single-service col-1-4">
+            	<div class="icon-service"><a><i class="icon icon-home"></i></a></div>
+                <h2>Serviço 4</h2>
+                <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
+            </div>
+            
+            <div class="single-service col-1-4">
+            	<div class="icon-service"><a><i class="icon icon-cog"></i></a></div>
+                <h2>Serviço 5</h2>
+                <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
+            </div>
+            
+            <div class="single-service col-1-4">
+            	<div class="icon-service"><a><i class="icon icon-cloud"></i></a></div>
+                <h2>Serviço 6</h2>
+                <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
+            </div>
+            
+            <div class="single-service col-1-4">
+            	<div class="icon-service"><a><i class="icon icon-camera"></i></a></div>
+                <h2>Serviço 7</h2>
+                <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+	<article class="testimonials grid grid-pad">
+        <h1>Testimonials</h1>
+        <hr class="line-style-gradient">
+            
+    	<div class="col-1-2">
+        	<blockquote>
+            	<div class="content-testimonial">
+                    <i class="aspas"></i>
+                    <p>Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque. Omnis aspernatur consequatur, sint quis facere.</p>
+                <div class="clear"></div>
+                </div>
+                <div class="arrow-baloon"></div>
+                <div class="clear"></div>
+                <div class="image-deponent"><img src="images/img-deponent1.png" alt=""></div>
+                <div class="content-deponent">
+                    <div class="name-deponent">Raul Fonseca</div>
+                    <div class="function-deponent">Gerente Comercial</div>
+                    <div class="location-deponent">Nestlé</div>
+                </div>
+                <div class="clear"></div>
+            </blockquote>
+        </div>
+        
+    	<div class="col-1-2">
+        	<blockquote>
+            	<div class="content-testimonial">
+                    <i class="aspas"></i>
+                    <p>Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque. Omnis aspernatur consequatur, sint quis facere.</p>
+                <div class="clear"></div>
+                </div>
+                <div class="arrow-baloon"></div>
+                <div class="clear"></div>
+                <div class="image-deponent"><img src="images/img-deponent2.png" alt=""></div>
+                <div class="content-deponent">
+                    <div class="name-deponent">Patrícia Viana</div>
+                    <div class="function-deponent">Compradora</div>
+                    <div class="location-deponent">Coca Cola</div>
+                </div>
+                <div class="clear"></div>
+            </blockquote>
+        </div>
+    
+    </article>
+</section>
+
+<!-- ACCORDION EFFECT -->
+<section id="accordion-effect">
+	<article class="grid grid-pad">
+        <div class="accordion-effect col-1-1">
+            <h1>Accordion Effect</h1>
+            <hr class="line-style-gradient">
+            <div class="spacer10"></div>
+            <div class="accordion-list">
+                <div class="accordion" id="nav-section1">1. Maecenas efficitur nisi sit amet eleifend finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span></span></div>
+                <ul>
+                    <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis malesuada ipsum. Vivamus consectetur pulvinar neque, ut mattis massa consectetur sed. Donec lorem mauris, sagittis eget sodales at, viverra vitae diam. Sed vitae enim quis tortor gravida consequat. Mauris elementum semper nibh eget dapibus.</a></li>
+                </ul>
+                
+                <div class="accordion" id="nav-section2">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+                <ul>
+                    <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+                </ul>
+                
+                <div class="accordion" id="nav-section3">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+                <ul>
+                    <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+                </ul>
+                
+                <div class="accordion" id="nav-section4">2. Cras laoreet enim vitae tempus vestibulum.<span></span></div>
+                <ul>
+                    <li><a href="">Phasellus tempus risus quis ipsum facilisis, at volutpat justo sagittis. Phasellus dictum eu ante at eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, odio eu lacinia consectetur, magna est rhoncus lectus, posuere posuere est nisi vitae nibh.</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="clear"></div>
+        
+	</article> 
+</section>
+            
+<!-- TABS -->
+<section id="tabs">
+	<article class="tabs grid grid-pad">
+        <div class="col-1-1">
+            <h1>TABS</h1>
+            <hr class="line-style-gradient">
+            
+            <div class="spacer40"></div>
+             
+            <input type="radio" name="tabs" id="tab1" checked >
+            <label for="tab1">
+                <i class="fa fa-html5"></i><span>HTML5</span>
+            </label>
+         
+            <input type="radio" name="tabs" id="tab2">
+            <label for="tab2">
+                <i class="fa fa-css3"></i><span>CSS3</span>
+            </label>
+            
+            <input type="radio" name="tabs" id="tab3">
+            <label for="tab3">
+                <i class="fa fa-code"></i><span>jQuery</span>
+            </label>
+         
+            <div id="tab-content1" class="tab-content">
+                <h3>HTML5 Snippets</h3>
+                <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web.</p>
+            </div>
+            <div id="tab-content2" class="tab-content">
+                <h3>CSS3 Snippets</h3>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.</p>
+            </div>
+            <div id="tab-content3" class="tab-content">
+                <h3>jQuery</h3>
+                <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+            </div>
+        </div>
+    </article>
+</section>
+
+<div class="clear"></div>
+
+
 <!-- CALL TO ACTION -->
 <section id="call-to-action">
 	<div class="call-to-action grid grid-pad">
@@ -520,8 +637,10 @@
         </div>
         <div class="col-1-3">
         	<h3>Siga-nos</h3>
-            <?php include('social-links.php');?>
+            <?php include('social-links1.php');?>
             <?php include('social-links2.php');?>
+            <div class="clear"></div>
+            <?php include('social-links3.php');?>
         </div>
     </div>
 </footer>
