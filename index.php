@@ -75,7 +75,7 @@
         	<!-- PARÁGRAFOS -->
             <article class="paragraph">
                 <h2>Heading (h2)</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula. Vestibulum scelerisque massa vel justo lobortis bibendum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Vestibulum scelerisque massa vel justo lobortis bibendum.</p>
                 <p>Nam tincidunt tincidunt quam, nec ultricies felis feugiat id. Duis imperdiet lacinia nunc nec vehicula. Integer bibendum at elit non porta. Maecenas pretium magna ut nulla ullamcorper suscipit nec id urna. Sed volutpat vehicula turpis, et aliquam nulla.</p>
                 <h3>Heading (h3)</h3>
                 <p>Sed vitae placerat urna. Ut efficitur, urna luctus ultricies ultricies, felis justo accumsan nisi, et convallis orci diam dapibus justo. Maecenas tempor condimentum mi eu tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget imperdiet velit, ut convallis orci.</p>
@@ -291,14 +291,17 @@
     <div class="grid grid-pad">
         <h1>Buttons</h1>
         <hr class="line-style-gradient">
+        
         <div class="col-1-4">
             <h6>Default Button</h6>
             <div class="btn-std"><a href="" title="Defaul Button">Button</a></div>
         </div>
+        
         <div class="col-1-4">
             <h6>Border Button</h6>
             <div class="btn-border"><a href="" title="Border Button">Button</a></div>
         </div>
+        
         <div class="col-1-4">
             <h6>Round Button</h6>
             <div class="btn-std btn-round"><a href="" title="Round Button">Button</a></div>
@@ -308,22 +311,32 @@
             <h6>Border Round Button</h6>
             <div class="btn-border btn-round"><a href="" title="Border Round Button">Button</a></div>
         </div>
+        
         <div class="col-1-4">
             <h6>Large Round Button</h6>
             <div class="btn-std btn-round btn-large"><a href="" title="Large Round Button">Button</a></div>
         </div>
+        
         <div class="col-1-4">
             <h6>Large Border Round Button</h6>
             <div class="btn-border btn-round btn-large"><a href="" title="Large Border Round Button">Button</a></div>
         </div>
+        
         <div class="col-1-4">
             <h6>Large Border Round Icon Button</h6>
             <div class="btn-border btn-round btn-large"><a href="" title="Large Border Round Icon Button"><i class="icon icon-home"></i>Button</a></div>
         </div>
+        
         <div class="col-1-4">
             <h6>Large Round Icon Button</h6>
             <div class="btn-std btn-round btn-large"><a href="" title="Large Round Icon Button"><i class="icon icon-home"></i>Button</a></div>
         </div>
+        
+        <div class="col-1-4">
+            <h6>Button Bevel Gradient</h6>
+            <div class="btn-bevel"><a href="" title="">Button</a></div>
+        </div>
+        
 	</div>  
 </section>    
 
@@ -338,52 +351,106 @@
             	<div class="icon-service"><a><i class="icon icon-home"></i></a></div>
                 <h2>Serviço 1</h2>
                 <div class="clear"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
             </div>
         
             <div class="single-service col-1-3">
             	<div class="icon-service"><a><i class="icon icon-database"></i></a></div>
                 <h2>Serviço 2</h2>
                 <div class="clear"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
             </div>
         
             <div class="single-service col-1-3">
             	<div class="icon-service"><a><i class="icon icon-target"></i></a></div>
                 <h2>Serviço 3</h2>
                 <div class="clear"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros. Cras quis tortor ligula.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
             </div>
         
-            <div class="single-service col-1-4">
-            	<div class="icon-service"><a><i class="icon icon-home"></i></a></div>
-                <h2>Serviço 4</h2>
-                <div class="clear"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
-            </div>
-            
-            <div class="single-service col-1-4">
-            	<div class="icon-service"><a><i class="icon icon-cog"></i></a></div>
-                <h2>Serviço 5</h2>
-                <div class="clear"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
-            </div>
-            
-            <div class="single-service col-1-4">
-            	<div class="icon-service"><a><i class="icon icon-cloud"></i></a></div>
-                <h2>Serviço 6</h2>
-                <div class="clear"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
-            </div>
-            
-            <div class="single-service col-1-4">
-            	<div class="icon-service"><a><i class="icon icon-camera"></i></a></div>
-                <h2>Serviço 7</h2>
-                <div class="clear"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
-            </div>
-            
         </div>
+    </div>
+</section>
+
+<!-- SERVICES BOXED -->
+<section id="services-boxed">
+	<div class="services-boxed grid grid-pad">
+        	<h1>Services Boxed</h1>
+            <hr class="line-style-gradient">
+            
+            <div class="col-1-3">
+                <div class="single-service">
+                    <div class="icon-service"><a><i class="icon icon-home"></i></a></div>
+                    <h2>Serviço 1</h2>
+                    <div class="clear"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
+                </div>
+            </div>
+        
+            <div class="col-1-3">
+                <div class="single-service">
+                    <div class="icon-service"><a><i class="icon icon-database"></i></a></div>
+                    <h2>Serviço 2</h2>
+                    <div class="clear"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
+                </div>
+            </div>
+        
+            <div class="col-1-3">
+                <div class="single-service">
+                    <div class="icon-service"><a><i class="icon icon-target"></i></a></div>
+                    <h2>Serviço 3</h2>
+                    <div class="clear"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
+                </div>
+            </div>
+        
+    </div>
+</section>
+
+<!-- SECTION 2 COLUMNS FULLSIZED -->
+<section class="two-columns-full-sized">
+	<div class="column1 col-1-2">
+    	<img src="images/bg-img-two-columns.jpg" alt="" width="952">
+    </div>
+	<div class="column2 col-1-2">
+    	
+        <div class="content-column2">
+            <div class="icon-column">
+                <i class="fa fa-ambulance"></i>
+            </div>
+            
+            <div class="info-column">
+                <h4>First Title</h4>
+                <p>Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        
+        <div class="content-column2">
+            <div class="icon-column">
+                <i class="fa fa-subway"></i>
+            </div>
+            
+            <div class="info-column">
+                <h4>Second Title</h4>
+                <p>Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        
+        <div class="content-column2">
+            <div class="icon-column">
+                <i class="fa fa-medkit"></i>
+            </div>
+            
+            <div class="info-column">
+                <h4>Third Title</h4>
+                <p>Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        
     </div>
 </section>
 
@@ -471,46 +538,45 @@
             
 <!-- TABS -->
 <section id="tabs">
-	<article class="tabs grid grid-pad">
-        <div class="col-1-1">
-            <h1>TABS</h1>
-            <hr class="line-style-gradient">
+	<div class="grid grid-pad">
+        <h1>Responsive Tabs</h1>
+        <hr class="line-style-gradient">
+    	<article class="tabs col-1-1">
+        
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label for="tab1">Codepen</label>
             
-            <div class="spacer40"></div>
-             
-            <input type="radio" name="tabs" id="tab1" checked >
-            <label for="tab1">
-                <i class="fa fa-html5"></i><span>HTML5</span>
-            </label>
-         
-            <input type="radio" name="tabs" id="tab2">
-            <label for="tab2">
-                <i class="fa fa-css3"></i><span>CSS3</span>
-            </label>
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">Dribbble</label>
             
-            <input type="radio" name="tabs" id="tab3">
-            <label for="tab3">
-                <i class="fa fa-code"></i><span>jQuery</span>
-            </label>
-         
-            <div id="tab-content1" class="tab-content">
-                <h3>HTML5 Snippets</h3>
-                <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web.</p>
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">Dropbox</label>
+            
+            <input id="tab4" type="radio" name="tabs">
+            <label for="tab4">Drupal</label>
+                
+            <div id="content1">
+                <p>Bacon ipsum dolor sit amet beef venison beef ribs kielbasa. Sausage pig leberkas, t-bone sirloin shoulder bresaola. Frankfurter rump porchetta ham. Pork belly prosciutto brisket meatloaf short ribs.</p>
+                <p>Brisket meatball turkey short loin boudin leberkas meatloaf chuck andouille pork loin pastrami spare ribs pancetta rump. Frankfurter corned beef beef tenderloin short loin meatloaf swine ground round venison.</p>
+                <p>Capicola fatback venison shank kielbasa, drumstick ribeye landjaeger beef kevin tail meatball pastrami prosciutto pancetta. Tail kevin spare ribs ground round ham ham hock brisket shoulder. Corned beef tri-tip leberkas flank sausage ham hock filet mignon beef ribs pancetta turkey.</p>
             </div>
-            <div id="tab-content2" class="tab-content">
-                <h3>CSS3 Snippets</h3>
-                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.</p>
+                
+            <div id="content2">
+                <p>Bacon ipsum dolor sit amet landjaeger sausage brisket, jerky drumstick fatback boudin ball tip turducken. Pork belly meatball t-bone bresaola tail filet mignon kevin turkey ribeye shank flank doner cow kielbasa shankle. Pig swine chicken hamburger, tenderloin turkey rump ball tip sirloin frankfurter.</p>
+                <p>Jerky jowl pork chop tongue, kielbasa shank venison. Capicola shank pig ribeye leberkas filet mignon brisket beef kevin tenderloin porchetta. Capicola fatback venison shank kielbasa, drumstick ribeye landjaeger beef kevin tail meatball pastrami prosciutto pancetta.</p>
             </div>
-            <div id="tab-content3" class="tab-content">
-                <h3>jQuery</h3>
-                <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+                
+            <div id="content3">
+                <p>Bacon ipsum dolor sit amet beef venison beef ribs kielbasa. Sausage pig leberkas, t-bone sirloin shoulder bresaola. Frankfurter rump porchetta ham. Pork belly prosciutto brisket meatloaf short ribs. Brisket meatball turkey short loin boudin leberkas meatloaf chuck andouille pork loin pastrami spare ribs pancetta rump. Frankfurter corned beef beef tenderloin short loin meatloaf swine ground round venison.</p>
             </div>
-        </div>
-    </article>
+                
+            <div id="content4">
+                <p>Bacon ipsum dolor sit amet landjaeger sausage brisket, jerky drumstick fatback boudin ball tip turducken. Pork belly meatball t-bone bresaola tail filet mignon kevin turkey ribeye shank flank doner cow kielbasa shankle. Pig swine chicken hamburger, tenderloin turkey rump ball tip sirloin frankfurter meatloaf boudin brisket ham hock. Hamburger venison brisket tri-tip andouille pork belly ball tip short ribs biltong meatball chuck.</p> 
+            </div>
+
+        </article>
+    </div>
 </section>
-
-<div class="clear"></div>
-
 
 <!-- CALL TO ACTION -->
 <section id="call-to-action">
