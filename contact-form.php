@@ -1,5 +1,4 @@
 <!-- ALERT MESSAGES -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function(){
 		jQuery('#form').submit(function(){
@@ -48,11 +47,12 @@
 
 <div id="ok" class="alert-messages">
     <ul class="success-message">
-        <li><span>Mensagem enviada com sucesso. Responderemos em breve. Obrigado!</span></li>
+        <li><i class="fa fa-info-circle"></i>Mensagem enviada com sucesso.</li>
     </ul>
 </div>
+
 <div id="no" class="alert-messages">
     <ul class="error-message">
-        <li><span>Erro. Contate o administrador.</span></li>
+        <li><i class="fa fa-warning"></i>Ocorreu um erro. Contate o administrador.</li>
    </ul>
 </div>

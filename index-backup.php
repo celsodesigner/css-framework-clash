@@ -578,26 +578,21 @@
 </section>
 
 <!-- CLIENT LOGOS -->
-<section id="client-logos">
-    <div class="grid grid-pad">
-        <h1>Client Logos</h1>
-        <hr class="line-style-gradient">
-        <div class="col-1-1">
-    
-            <div id="owl-example" class="owl-carousel">
-                <div class="item"><a href=""><img src="images/client-logos-2bw-sistemas.png" alt=""></a></div>
-                <div class="item"><a href=""><img src="images/client-logos-bernardes-advogados.png" alt=""></a></div>
-                <div class="item"><a href=""><img src="images/client-logos-egosss.png" alt=""></a></div>
-                <div class="item"><a href=""><img src="images/client-logos-rapido-light.png" alt=""></a></div>
-                <div class="item"><a href=""><img src="images/client-logos-rede-habitar.png" alt=""></a></div>
-                <div class="item"><a href=""><img src="images/client-logos-ride-for-life.png" alt=""></a></div>
-                <div class="item"><a href=""><img src="images/client-logos-sedentos-soul.png" alt=""></a></div>
-                <div class="item"><a href=""><img src="images/client-logos-telemidia-brasil.png" alt=""></a></div>
-            </div>
-    
+<div class="grid grid-pad">
+	<div class="col-1-1">
+
+        <div id="owl-example" class="owl-carousel">
+            <div class="item"><img src="images/owl1.jpg" alt=""></div>
+            <div class="item"><img src="images/owl2.jpg" alt=""></div>
+            <div class="item"><img src="images/owl3.jpg" alt=""></div>
+            <div class="item"><img src="images/owl4.jpg" alt=""></div>
+            <div class="item"><img src="images/owl5.jpg" alt=""></div>
+            <div class="item"><img src="images/owl6.jpg" alt=""></div>
+            <div class="item"><img src="images/owl7.jpg" alt=""></div>
         </div>
-    </div>
-</section>
+
+	</div>
+</div>
 
 <!-- CALL TO ACTION -->
 <section id="call-to-action">
