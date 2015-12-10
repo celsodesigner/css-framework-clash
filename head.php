@@ -36,7 +36,6 @@
 <script src="owl-carousel/owl.carousel.js"></script>
 
 <!-- BACK TO TOP -->
-<link rel="stylesheet" href="css/back-to-top.css"> 
 <a href="#0" class="cd-top">Top</a>
 <script src="js/back-to-top.js"></script>
 

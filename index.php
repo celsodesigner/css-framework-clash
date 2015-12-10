@@ -19,6 +19,22 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <header>
+
+    <section id="bar-header">
+        <div class="grid grid-pad">
+            <div class="contacts col-1-2">
+                <div class="phone"><i class="icon icon-phone"></i><span>(31) 3077-2141</span></div>
+                <div class="email"><i class="fa fa-envelope"></i><span>contato@clashdesign.com.br</span></div>
+            </div>
+            
+            <div class="col-1-2">
+                <?php include('social-links-header.php');?>
+            </div>
+            
+        </div>
+    </section>
+
+
     <section id="contact-bar-header">
         <div class="contact-bar grid grid-pad">
             <ul class="col-1-1">
@@ -272,14 +288,20 @@
         <h6>Glyph</h6>
         <hr class="line-style-glyph">
         
-        <h6>Horizontal</h6>
-        <hr class="horizontal-line">
+        <h6>Horizontal Line White BG</h6>
+        <hr class="horizontal-line-white-bg">
         
+        <h6>Horizontal Line Black BG</h6>
+        <hr class="horizontal-line-black-bg">
+
         <h6>Dashed Line</h6>
         <hr class="dashed-line">
         
         <h6>Dotted Line</h6>
         <hr class="dotted-line">
+        
+        <h6>Dobble Line</h6>
+        <hr class="dobble-line">
         
     </div>
 </section>
@@ -364,6 +386,35 @@
             	<div class="icon-service"><a><i class="icon icon-target"></i></a></div>
                 <h2>Serviço 3</h2>
                 <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
+            </div>
+        
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES CENTERED -->
+<section id="services-centered">
+	<div class="services-centered grid grid-pad">
+    	<div class="col-1-1">
+        	<h1>Services Centered</h1>
+            <hr class="line-style-gradient">
+            
+            <div class="single-service col-1-3">
+                    <div class="icon-service"><a><i class="icon icon-home"></i></a></div>
+                <h2>Serviço 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
+            </div>
+        
+            <div class="single-service col-1-3">
+                    <div class="icon-service"><a><i class="icon icon-database"></i></a></div>
+                <h2>Serviço 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
+            </div>
+        
+            <div class="single-service col-1-3">
+                    <div class="icon-service"><a><i class="icon icon-target"></i></a></div>
+                <h2>Serviço 3</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue eros vitae lacus fermentum dictum. Phasellus sed purus eu leo facilisis egestas ut ac lectus. Vivamus suscipit, turpis id accumsan pellentesque, mauris orci auctor nibh, nec mattis nisi lectus vitae eros.</p>
             </div>
         
@@ -708,7 +759,7 @@
 <!-- FOOTER -->
 <footer>
 	<div class="widget-contact grid grid-pad">
-    	<div class="col-1-3">
+    	<div class="contacts col-1-3">
             <h3>Contato</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam ipsum. Phasellus tempus quis arcu vitae tempor.</p>
             <ul>
@@ -726,8 +777,8 @@
         	<h3>Siga-nos</h3>
             <?php include('social-links1.php');?>
             <?php include('social-links2.php');?>
-            <div class="clear"></div>
             <?php include('social-links3.php');?>
+            <?php include('social-links4.php');?>
         </div>
     </div>
 </footer>

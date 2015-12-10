@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="css/social-links.css">
-
 <div class="social-icons">
     <ul>
         <li class="facebook" style="background-color: #3b5998">

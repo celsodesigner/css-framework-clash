@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="css/social-links2.css">
-
 <div class="social-icons2">
     <ul>
         <li class="facebook">
@@ -28,4 +26,5 @@
     </ul>
 </div>
 
+<div class="clear"></div>
 
