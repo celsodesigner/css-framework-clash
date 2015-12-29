@@ -12,9 +12,10 @@
 <link rel="stylesheet" href="css/3Drollovers.css">
 <link rel="stylesheet" href="shadowbox/shadowbox.css">
 <link rel="stylesheet" href="css/icomoon.css">
+<link rel="stylesheet" href="css/font-awesome.css">
 <link rel="stylesheet" href="css/mfglabs_iconset.css">
 
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
 
 <!-- SHADOWBOX -->
 <script type="text/javascript" src="shadowbox/shadowbox.js"></script>
@@ -24,10 +25,6 @@
  player: ['img', 'html', 'swf']
  });
 </script>
-
-<!-- TOGGLE EFFECT -->
-<script type="text/javascript" src="js/toggle.js"></script>
-<script type="text/javascript" src="js/toggle2.js"></script>
 
 <!-- CLIENT LOGOS -->
 <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
@@ -78,7 +75,6 @@ Oferecemos mídias destinadas a divulgação de produtos e serviços, bem como d
 
 <!-- FONTS -->
 <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,700,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="fonts/font-awesome-4.4.0/css/font-awesome.min.css">
 
 
 

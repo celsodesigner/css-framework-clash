@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br"><head>
+<html lang="pt-br">
+<head>
 <?php include('head.php');?>
 <meta name="description" content="Descrição do site ou da página - Terceira linha da busca do Google." />
 <title>Clash CSS Framework</title>
@@ -300,8 +301,8 @@
         <h6>Dotted Line</h6>
         <hr class="dotted-line">
         
-        <h6>Dobble Line</h6>
-        <hr class="dobble-line">
+        <h6>Double Line</h6>
+        <hr class="double-line">
         
     </div>
 </section>

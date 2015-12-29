@@ -8,7 +8,7 @@
 <nav class="nav-collapse">
     <ul>
         <li class="menu-item active"><a href="#top" data-scroll>Home</a></li>
-        <li class="menu-item"><a href="#content" data-scroll>Texto</a></li>
+        <li class="menu-item"><a href="blog.php" data-scroll>Blog</a></li>
         <li class="menu-item"><a href="#buttons" data-scroll>Buttons</a></li>
         <li class="menu-item"><a href="#newsletter" data-scroll>Newsletter</a></li>
         <li class="menu-item"><a href="#video-container" data-scroll>Video Container</a></li>
